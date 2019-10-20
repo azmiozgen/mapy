@@ -63,5 +63,5 @@ if __name__ == '__main__':
         m.plot(x, y, 'bo')
 
         # plt.text(x_off, y_off, '{} ({:.1f}, {:.1f})'.format(name, lon, lat))
-        plt.text(x_off, y_off, '{}'.format(name, lon, lat))
+        plt.text(x_off, y_off, '{}'.format(name))
     plt.show()

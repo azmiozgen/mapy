@@ -8,6 +8,6 @@ class Continent:
               'lat_2' : 55,
               'llcrnrlon' : -9.5,
               'llcrnrlat' : 33.5,
-              'urcrnrlon' : 61.0,
-              'urcrnrlat' : 68.0,
+              'urcrnrlon' : 61.5,
+              'urcrnrlat' : 68.5,
              }
