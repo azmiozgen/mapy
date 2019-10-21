@@ -1,28 +1,29 @@
 import os
 
+import numpy as np
+
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
-from geonamescache import GeonamesCache
+from config import Continent
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon
 from mpl_toolkits.basemap import Basemap
 
-from config import Continent
-
 COUNTRY_COORDS_FILE = "./asset/eu_country_lon_lat_extended.csv"
 COUNTRY_GNP_FILE = "./asset/worldbank_gnp.csv"
 SHAPE_FILE = "./asset/natural_earth/ne_10m_admin_0_countries"  ## w/o extension
-OUTPUT_FILE = "./output/eu_gnp_map_low.png"
 
-TITLE = "Europe GNP (Gross National Product) in 2018 (US Dollars)"
+YEAR = '1995'
+TITLE = "Europe GNP (Gross National Product) in {} (US Dollars)".format(YEAR)
 TEXT_OFFSET = 0
 LOWER_LATITUDE_OFFSET = 1
 N_COLORS = 9
 GNP_VALUE_TEXT_FONTSIZE = 10
 RESOLUTION = 'c'  ## c, l, i, h, f
-FIGURE_SIZE = (40, 25)
+FIGURE_SIZE = (25, 20)
+
+OUTPUT_FILE = "./output/eu_gnp{}_map.png".format(YEAR)
 
 if __name__ == '__main__':
 
@@ -43,11 +44,11 @@ if __name__ == '__main__':
     df_gnp = pd.read_csv(COUNTRY_GNP_FILE)
 
     ## Merge with Europe df
-    merged = pd.merge(df_gnp, df_eu, left_on='Country Name', right_on='name')[['name', '2018', 'lon', 'lat']]
+    merged = pd.merge(df_gnp, df_eu, left_on='Country Name', right_on='name')[['name', YEAR, 'lon', 'lat']]
     df = merged.dropna()
 
     ## Set digitized color intervals
-    gnp_values = df['2018']
+    gnp_values = df[YEAR]
     cm = plt.get_cmap('Oranges')
     scheme = np.array([cm(i / N_COLORS) for i in range(N_COLORS)])
     bins = np.linspace(gnp_values.min(), gnp_values.max(), N_COLORS)
