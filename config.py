@@ -1,5 +1,16 @@
 class Continent:
 
+    world = {'width' : 0,
+             'height' : 0,
+             'lat_0' : 0,
+             'lon_0' : 0,
+             'lat_1' : 0,
+             'lat_2' : 0,
+             'llcrnrlon' : -180,
+             'llcrnrlat' : -60,
+             'urcrnrlon' : 180,
+             'urcrnrlat' : 80,
+             }
     europe = {'width' : 4000000,
               'height' : 4060000,
               'lat_0' : 55.5,
