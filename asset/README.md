@@ -1,0 +1,1 @@
+* `worldbank_gnp.csv' acquired in 2019-10-20 from https://data.worldbank.org/indicator/ny.gnp.pcap.pp.cd?most_recent_value_desc=true
