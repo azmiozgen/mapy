@@ -486,25 +486,25 @@
 "220006","Total number of national feature films produced","TUR","Turkey","2015","2015",137,"‡","UIS Estimation"
 "220006","Total number of national feature films produced","TUR","Turkey","2016","2016",135,,
 "220006","Total number of national feature films produced","TUR","Turkey","2017","2017",148,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","1995","1995",81,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","1996","1996",121,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","1997","1997",103,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","1998","1998",80,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","1999","1999",103,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2000","2000",90,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",106,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2006","2006",107,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",124,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",279,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",313,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",346,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",299,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",326,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",241,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",339,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",298,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",317,,
-"220006","Total number of national feature films produced","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",285,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","1995","1995",81,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","1996","1996",121,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","1997","1997",103,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","1998","1998",80,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","1999","1999",103,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2000","2000",90,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2005","2005",106,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2006","2006",107,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2007","2007",124,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2008","2008",279,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2009","2009",313,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2010","2010",346,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2011","2011",299,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2012","2012",326,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2013","2013",241,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2014","2014",339,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2015","2015",298,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2016","2016",317,,
+"220006","Total number of national feature films produced","GBR","United Kingdom","2017","2017",285,,
 "220006","Total number of national feature films produced","USA","United States of America","1995","1995",370,,
 "220006","Total number of national feature films produced","USA","United States of America","1996","1996",420,,
 "220006","Total number of national feature films produced","USA","United States of America","1997","1997",461,,
@@ -705,19 +705,19 @@
 "220006","Total number of national feature films produced","CHL","Chile","2015","2015",38,,
 "220006","Total number of national feature films produced","CHL","Chile","2016","2016",44,,
 "220006","Total number of national feature films produced","CHL","Chile","2017","2017",49,,
-"220006","Total number of national feature films produced","CHN","China","2005","2005",260,,
-"220006","Total number of national feature films produced","CHN","China","2006","2006",330,,
-"220006","Total number of national feature films produced","CHN","China","2007","2007",411,,
-"220006","Total number of national feature films produced","CHN","China","2008","2008",422,,
-"220006","Total number of national feature films produced","CHN","China","2009","2009",475,,
-"220006","Total number of national feature films produced","CHN","China","2010","2010",542,,
-"220006","Total number of national feature films produced","CHN","China","2011","2011",584,,
-"220006","Total number of national feature films produced","CHN","China","2012","2012",745,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","CHN","China","2013","2013",638,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","CHN","China","2014","2014",618,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","CHN","China","2015","2015",686,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","CHN","China","2016","2016",853,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","CHN","China","2017","2017",874,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2005","2005",260,,
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2006","2006",330,,
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2007","2007",411,,
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2008","2008",422,,
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2009","2009",475,,
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2010","2010",542,,
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2011","2011",584,,
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2012","2012",745,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2013","2013",638,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2014","2014",618,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2015","2015",686,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2016","2016",853,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","CHN","People's Republic of China","2017","2017",874,"‡","UIS Estimation"
 "220006","Total number of national feature films produced","COL","Colombia","1998","1998",5,,
 "220006","Total number of national feature films produced","COL","Colombia","1999","1999",8,,
 "220006","Total number of national feature films produced","COL","Colombia","2005","2005",8,,
@@ -923,19 +923,19 @@
 "220006","Total number of national feature films produced","IDN","Indonesia","2015","2015",114,,
 "220006","Total number of national feature films produced","IDN","Indonesia","2016","2016",124,,
 "220006","Total number of national feature films produced","IDN","Indonesia","2017","2017",117,,
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","1995","1995",62,,
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2005","2005",26,,
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2007","2007",57,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2008","2008",51,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2009","2009",62,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2010","2010",98,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2011","2011",76,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2012","2012",67,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2013","2013",87,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2014","2014",82,,
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2015","2015",85,,
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2016","2016",90,,
-"220006","Total number of national feature films produced","IRN","Iran (Islamic Republic of)","2017","2017",98,,
+"220006","Total number of national feature films produced","IRN","Iran","1995","1995",62,,
+"220006","Total number of national feature films produced","IRN","Iran","2005","2005",26,,
+"220006","Total number of national feature films produced","IRN","Iran","2007","2007",57,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","IRN","Iran","2008","2008",51,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","IRN","Iran","2009","2009",62,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","IRN","Iran","2010","2010",98,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","IRN","Iran","2011","2011",76,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","IRN","Iran","2012","2012",67,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","IRN","Iran","2013","2013",87,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","IRN","Iran","2014","2014",82,,
+"220006","Total number of national feature films produced","IRN","Iran","2015","2015",85,,
+"220006","Total number of national feature films produced","IRN","Iran","2016","2016",90,,
+"220006","Total number of national feature films produced","IRN","Iran","2017","2017",98,,
 "220006","Total number of national feature films produced","IRQ","Iraq","1997","1997",24,,
 "220006","Total number of national feature films produced","ISR","Israel","1995","1995",8,,
 "220006","Total number of national feature films produced","ISR","Israel","1996","1996",9,,
@@ -1267,25 +1267,25 @@
 "220006","Total number of national feature films produced","ROU","Romania","2015","2015",26,,
 "220006","Total number of national feature films produced","ROU","Romania","2016","2016",32,,
 "220006","Total number of national feature films produced","ROU","Romania","2017","2017",28,,
-"220006","Total number of national feature films produced","RUS","Russian Federation","1995","1995",46,,
-"220006","Total number of national feature films produced","RUS","Russian Federation","1996","1996",15,,
-"220006","Total number of national feature films produced","RUS","Russian Federation","1997","1997",31,,
-"220006","Total number of national feature films produced","RUS","Russian Federation","1998","1998",16,,
-"220006","Total number of national feature films produced","RUS","Russian Federation","1999","1999",16,,
-"220006","Total number of national feature films produced","RUS","Russian Federation","2004","2004",86,,
-"220006","Total number of national feature films produced","RUS","Russian Federation","2005","2005",62,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2006","2006",59,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2007","2007",78,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2008","2008",78,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2009","2009",78,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2010","2010",133,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2011","2011",111,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2012","2012",109,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2013","2013",139,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2014","2014",124,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2015","2015",121,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2016","2016",138,"‡","UIS Estimation"
-"220006","Total number of national feature films produced","RUS","Russian Federation","2017","2017",128,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","1995","1995",46,,
+"220006","Total number of national feature films produced","RUS","Russia","1996","1996",15,,
+"220006","Total number of national feature films produced","RUS","Russia","1997","1997",31,,
+"220006","Total number of national feature films produced","RUS","Russia","1998","1998",16,,
+"220006","Total number of national feature films produced","RUS","Russia","1999","1999",16,,
+"220006","Total number of national feature films produced","RUS","Russia","2004","2004",86,,
+"220006","Total number of national feature films produced","RUS","Russia","2005","2005",62,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2006","2006",59,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2007","2007",78,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2008","2008",78,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2009","2009",78,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2010","2010",133,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2011","2011",111,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2012","2012",109,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2013","2013",139,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2014","2014",124,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2015","2015",121,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2016","2016",138,"‡","UIS Estimation"
+"220006","Total number of national feature films produced","RUS","Russia","2017","2017",128,"‡","UIS Estimation"
 "220006","Total number of national feature films produced","KNA","Saint Kitts and Nevis","2007","2007",,"n","Magnitude nil or negligible"
 "220006","Total number of national feature films produced","KNA","Saint Kitts and Nevis","2008","2008",,"n","Magnitude nil or negligible"
 "220006","Total number of national feature films produced","KNA","Saint Kitts and Nevis","2009","2009",,"n","Magnitude nil or negligible"
@@ -1729,18 +1729,18 @@
 "220160","Number of fictional feature films","TUR","Turkey","2013","2013",82,,
 "220160","Number of fictional feature films","TUR","Turkey","2016","2016",130,,
 "220160","Number of fictional feature films","TUR","Turkey","2017","2017",141,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",162,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",112,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",215,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",248,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",285,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",239,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",249,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",197,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",253,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",213,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",247,,
-"220160","Number of fictional feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",213,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2005","2005",162,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2007","2007",112,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2008","2008",215,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2009","2009",248,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2010","2010",285,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2011","2011",239,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2012","2012",249,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2013","2013",197,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2014","2014",253,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2015","2015",213,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2016","2016",247,,
+"220160","Number of fictional feature films","GBR","United Kingdom","2017","2017",213,,
 "220160","Number of fictional feature films","USA","United States of America","2008","2008",690,,
 "220160","Number of fictional feature films","USA","United States of America","2009","2009",680,,
 "220160","Number of fictional feature films","USA","United States of America","2010","2010",774,,
@@ -1835,13 +1835,13 @@
 "220160","Number of fictional feature films","CHL","Chile","2015","2015",22,,
 "220160","Number of fictional feature films","CHL","Chile","2016","2016",25,,
 "220160","Number of fictional feature films","CHL","Chile","2017","2017",28,,
-"220160","Number of fictional feature films","CHN","China","2007","2007",402,,
-"220160","Number of fictional feature films","CHN","China","2008","2008",406,,
-"220160","Number of fictional feature films","CHN","China","2009","2009",456,,
-"220160","Number of fictional feature films","CHN","China","2010","2010",526,,
-"220160","Number of fictional feature films","CHN","China","2011","2011",558,,
-"220160","Number of fictional feature films","CHN","China","2016","2016",772,"‡","UIS Estimation"
-"220160","Number of fictional feature films","CHN","China","2017","2017",798,"‡","UIS Estimation"
+"220160","Number of fictional feature films","CHN","People's Republic of China","2007","2007",402,,
+"220160","Number of fictional feature films","CHN","People's Republic of China","2008","2008",406,,
+"220160","Number of fictional feature films","CHN","People's Republic of China","2009","2009",456,,
+"220160","Number of fictional feature films","CHN","People's Republic of China","2010","2010",526,,
+"220160","Number of fictional feature films","CHN","People's Republic of China","2011","2011",558,,
+"220160","Number of fictional feature films","CHN","People's Republic of China","2016","2016",772,"‡","UIS Estimation"
+"220160","Number of fictional feature films","CHN","People's Republic of China","2017","2017",798,"‡","UIS Estimation"
 "220160","Number of fictional feature films","COL","Colombia","2009","2009",13,,
 "220160","Number of fictional feature films","COL","Colombia","2010","2010",10,,
 "220160","Number of fictional feature films","COL","Colombia","2011","2011",17,,
@@ -2095,9 +2095,9 @@
 "220160","Number of fictional feature films","ROU","Romania","2015","2015",17,,
 "220160","Number of fictional feature films","ROU","Romania","2016","2016",25,,
 "220160","Number of fictional feature films","ROU","Romania","2017","2017",17,,
-"220160","Number of fictional feature films","RUS","Russian Federation","2012","2012",107,"‡","UIS Estimation"
-"220160","Number of fictional feature films","RUS","Russian Federation","2016","2016",118,"‡","UIS Estimation"
-"220160","Number of fictional feature films","RUS","Russian Federation","2017","2017",100,"‡","UIS Estimation"
+"220160","Number of fictional feature films","RUS","Russia","2012","2012",107,"‡","UIS Estimation"
+"220160","Number of fictional feature films","RUS","Russia","2016","2016",118,"‡","UIS Estimation"
+"220160","Number of fictional feature films","RUS","Russia","2017","2017",100,"‡","UIS Estimation"
 "220160","Number of fictional feature films","KNA","Saint Kitts and Nevis","2007","2007",,"n","Magnitude nil or negligible"
 "220160","Number of fictional feature films","KNA","Saint Kitts and Nevis","2008","2008",,"n","Magnitude nil or negligible"
 "220160","Number of fictional feature films","KNA","Saint Kitts and Nevis","2009","2009",,"n","Magnitude nil or negligible"
@@ -2413,18 +2413,18 @@
 "220161","Number of animated feature films","TUR","Turkey","2013","2013",1,,
 "220161","Number of animated feature films","TUR","Turkey","2016","2016",3,,
 "220161","Number of animated feature films","TUR","Turkey","2017","2017",4,,
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",,"n","Magnitude nil or negligible"
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",3,,
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",2,,
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",7,,
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",6,,
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",4,,
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",4,,
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",,"n","Magnitude nil or negligible"
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",1,,
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",2,,
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",4,,
-"220161","Number of animated feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",5,,
+"220161","Number of animated feature films","GBR","United Kingdom","2005","2005",,"n","Magnitude nil or negligible"
+"220161","Number of animated feature films","GBR","United Kingdom","2007","2007",3,,
+"220161","Number of animated feature films","GBR","United Kingdom","2008","2008",2,,
+"220161","Number of animated feature films","GBR","United Kingdom","2009","2009",7,,
+"220161","Number of animated feature films","GBR","United Kingdom","2010","2010",6,,
+"220161","Number of animated feature films","GBR","United Kingdom","2011","2011",4,,
+"220161","Number of animated feature films","GBR","United Kingdom","2012","2012",4,,
+"220161","Number of animated feature films","GBR","United Kingdom","2013","2013",,"n","Magnitude nil or negligible"
+"220161","Number of animated feature films","GBR","United Kingdom","2014","2014",1,,
+"220161","Number of animated feature films","GBR","United Kingdom","2015","2015",2,,
+"220161","Number of animated feature films","GBR","United Kingdom","2016","2016",4,,
+"220161","Number of animated feature films","GBR","United Kingdom","2017","2017",5,,
 "220161","Number of animated feature films","USA","United States of America","2008","2008",16,,
 "220161","Number of animated feature films","USA","United States of America","2009","2009",14,,
 "220161","Number of animated feature films","USA","United States of America","2010","2010",18,,
@@ -2505,11 +2505,11 @@
 "220161","Number of animated feature films","CHL","Chile","2015","2015",,"n","Magnitude nil or negligible"
 "220161","Number of animated feature films","CHL","Chile","2016","2016",,"n","Magnitude nil or negligible"
 "220161","Number of animated feature films","CHL","Chile","2017","2017",,"n","Magnitude nil or negligible"
-"220161","Number of animated feature films","CHN","China","2007","2007",,"n","Magnitude nil or negligible"
-"220161","Number of animated feature films","CHN","China","2008","2008",,"n","Magnitude nil or negligible"
-"220161","Number of animated feature films","CHN","China","2009","2009",,"n","Magnitude nil or negligible"
-"220161","Number of animated feature films","CHN","China","2016","2016",49,"‡","UIS Estimation"
-"220161","Number of animated feature films","CHN","China","2017","2017",32,"‡","UIS Estimation"
+"220161","Number of animated feature films","CHN","People's Republic of China","2007","2007",,"n","Magnitude nil or negligible"
+"220161","Number of animated feature films","CHN","People's Republic of China","2008","2008",,"n","Magnitude nil or negligible"
+"220161","Number of animated feature films","CHN","People's Republic of China","2009","2009",,"n","Magnitude nil or negligible"
+"220161","Number of animated feature films","CHN","People's Republic of China","2016","2016",49,"‡","UIS Estimation"
+"220161","Number of animated feature films","CHN","People's Republic of China","2017","2017",32,"‡","UIS Estimation"
 "220161","Number of animated feature films","COL","Colombia","2009","2009",,"n","Magnitude nil or negligible"
 "220161","Number of animated feature films","COL","Colombia","2010","2010",,"n","Magnitude nil or negligible"
 "220161","Number of animated feature films","COL","Colombia","2011","2011",1,,
@@ -2740,8 +2740,8 @@
 "220161","Number of animated feature films","ROU","Romania","2015","2015",2,,
 "220161","Number of animated feature films","ROU","Romania","2016","2016",1,,
 "220161","Number of animated feature films","ROU","Romania","2017","2017",,"n","Magnitude nil or negligible"
-"220161","Number of animated feature films","RUS","Russian Federation","2016","2016",12,"‡","UIS Estimation"
-"220161","Number of animated feature films","RUS","Russian Federation","2017","2017",9,"‡","UIS Estimation"
+"220161","Number of animated feature films","RUS","Russia","2016","2016",12,"‡","UIS Estimation"
+"220161","Number of animated feature films","RUS","Russia","2017","2017",9,"‡","UIS Estimation"
 "220161","Number of animated feature films","KNA","Saint Kitts and Nevis","2007","2007",,"n","Magnitude nil or negligible"
 "220161","Number of animated feature films","KNA","Saint Kitts and Nevis","2008","2008",,"n","Magnitude nil or negligible"
 "220161","Number of animated feature films","KNA","Saint Kitts and Nevis","2009","2009",,"n","Magnitude nil or negligible"
@@ -3081,18 +3081,18 @@
 "220162","Number of documentary feature films","TUR","Turkey","2013","2013",2,,
 "220162","Number of documentary feature films","TUR","Turkey","2016","2016",2,,
 "220162","Number of documentary feature films","TUR","Turkey","2017","2017",3,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",2,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",9,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",62,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",58,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",55,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",56,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",73,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",44,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",85,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",79,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",66,,
-"220162","Number of documentary feature films","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",66,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2005","2005",2,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2007","2007",9,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2008","2008",62,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2009","2009",58,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2010","2010",55,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2011","2011",56,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2012","2012",73,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2013","2013",44,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2014","2014",85,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2015","2015",79,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2016","2016",66,,
+"220162","Number of documentary feature films","GBR","United Kingdom","2017","2017",66,,
 "220162","Number of documentary feature films","AZE","Azerbaijan","2007","2007",10,,
 "220162","Number of documentary feature films","AZE","Azerbaijan","2008","2008",8,,
 "220162","Number of documentary feature films","AZE","Azerbaijan","2009","2009",11,,
@@ -3162,13 +3162,13 @@
 "220162","Number of documentary feature films","CHL","Chile","2015","2015",16,,
 "220162","Number of documentary feature films","CHL","Chile","2016","2016",19,,
 "220162","Number of documentary feature films","CHL","Chile","2017","2017",21,,
-"220162","Number of documentary feature films","CHN","China","2007","2007",9,,
-"220162","Number of documentary feature films","CHN","China","2008","2008",16,,
-"220162","Number of documentary feature films","CHN","China","2009","2009",19,,
-"220162","Number of documentary feature films","CHN","China","2010","2010",16,,
-"220162","Number of documentary feature films","CHN","China","2011","2011",26,,
-"220162","Number of documentary feature films","CHN","China","2016","2016",32,"‡","UIS Estimation"
-"220162","Number of documentary feature films","CHN","China","2017","2017",44,"‡","UIS Estimation"
+"220162","Number of documentary feature films","CHN","People's Republic of China","2007","2007",9,,
+"220162","Number of documentary feature films","CHN","People's Republic of China","2008","2008",16,,
+"220162","Number of documentary feature films","CHN","People's Republic of China","2009","2009",19,,
+"220162","Number of documentary feature films","CHN","People's Republic of China","2010","2010",16,,
+"220162","Number of documentary feature films","CHN","People's Republic of China","2011","2011",26,,
+"220162","Number of documentary feature films","CHN","People's Republic of China","2016","2016",32,"‡","UIS Estimation"
+"220162","Number of documentary feature films","CHN","People's Republic of China","2017","2017",44,"‡","UIS Estimation"
 "220162","Number of documentary feature films","COL","Colombia","2009","2009",6,,
 "220162","Number of documentary feature films","COL","Colombia","2010","2010",,"n","Magnitude nil or negligible"
 "220162","Number of documentary feature films","COL","Colombia","2011","2011",,"n","Magnitude nil or negligible"
@@ -3710,17 +3710,17 @@
 "220035","Total number of distribution companies","TUR","Turkey","2013","2013",13,,
 "220035","Total number of distribution companies","TUR","Turkey","2016","2016",20,,
 "220035","Total number of distribution companies","TUR","Turkey","2017","2017",21,,
-"220035","Total number of distribution companies","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",69,,
-"220035","Total number of distribution companies","GBR","United Kingdom of Great Britain and Northern Ireland","2006","2006",67,,
-"220035","Total number of distribution companies","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",73,,
-"220035","Total number of distribution companies","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",92,,
-"220035","Total number of distribution companies","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",93,,
-"220035","Total number of distribution companies","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",127,,
-"220035","Total number of distribution companies","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",108,,
-"220035","Total number of distribution companies","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",140,,
-"220035","Total number of distribution companies","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",131,,
-"220035","Total number of distribution companies","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",107,,
-"220035","Total number of distribution companies","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",127,,
+"220035","Total number of distribution companies","GBR","United Kingdom","2005","2005",69,,
+"220035","Total number of distribution companies","GBR","United Kingdom","2006","2006",67,,
+"220035","Total number of distribution companies","GBR","United Kingdom","2007","2007",73,,
+"220035","Total number of distribution companies","GBR","United Kingdom","2008","2008",92,,
+"220035","Total number of distribution companies","GBR","United Kingdom","2009","2009",93,,
+"220035","Total number of distribution companies","GBR","United Kingdom","2010","2010",127,,
+"220035","Total number of distribution companies","GBR","United Kingdom","2011","2011",108,,
+"220035","Total number of distribution companies","GBR","United Kingdom","2014","2014",140,,
+"220035","Total number of distribution companies","GBR","United Kingdom","2015","2015",131,,
+"220035","Total number of distribution companies","GBR","United Kingdom","2016","2016",107,,
+"220035","Total number of distribution companies","GBR","United Kingdom","2017","2017",127,,
 "220035","Total number of distribution companies","USA","United States of America","2007","2007",137,,
 "220035","Total number of distribution companies","USA","United States of America","2008","2008",140,,
 "220035","Total number of distribution companies","USA","United States of America","2009","2009",109,,
@@ -4037,7 +4037,7 @@
 "220035","Total number of distribution companies","ROU","Romania","2015","2015",49,,
 "220035","Total number of distribution companies","ROU","Romania","2016","2016",51,,
 "220035","Total number of distribution companies","ROU","Romania","2017","2017",50,,
-"220035","Total number of distribution companies","RUS","Russian Federation","2005","2005",47,,
+"220035","Total number of distribution companies","RUS","Russia","2005","2005",47,,
 "220035","Total number of distribution companies","SGP","Singapore","2005","2005",7,,
 "220035","Total number of distribution companies","SGP","Singapore","2006","2006",7,,
 "220035","Total number of distribution companies","SVN","Slovenia","2005","2005",20,,
@@ -4374,19 +4374,19 @@
 "220174","Total number of indoor cinemas","TUR","Turkey","2011","2011",520,,
 "220174","Total number of indoor cinemas","TUR","Turkey","2012","2012",567,,
 "220174","Total number of indoor cinemas","TUR","Turkey","2013","2013",620,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",659,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2006","2006",697,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",727,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",726,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",723,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",723,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",745,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",769,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",756,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",750,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",751,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",766,,
-"220174","Total number of indoor cinemas","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",774,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2005","2005",659,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2006","2006",697,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2007","2007",727,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2008","2008",726,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2009","2009",723,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2010","2010",723,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2011","2011",745,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2012","2012",769,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2013","2013",756,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2014","2014",750,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2015","2015",751,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2016","2016",766,,
+"220174","Total number of indoor cinemas","GBR","United Kingdom","2017","2017",774,,
 "220174","Total number of indoor cinemas","USA","United States of America","2006","2006",6356,,
 "220174","Total number of indoor cinemas","USA","United States of America","2007","2007",6277,,
 "220174","Total number of indoor cinemas","USA","United States of America","2008","2008",6269,,
@@ -4504,10 +4504,10 @@
 "220174","Total number of indoor cinemas","CHL","Chile","2015","2015",68,,
 "220174","Total number of indoor cinemas","CHL","Chile","2016","2016",60,,
 "220174","Total number of indoor cinemas","CHL","Chile","2017","2017",65,,
-"220174","Total number of indoor cinemas","CHN","China","2006","2006",1325,,
-"220174","Total number of indoor cinemas","CHN","China","2007","2007",1427,,
-"220174","Total number of indoor cinemas","CHN","China","2008","2008",1545,,
-"220174","Total number of indoor cinemas","CHN","China","2009","2009",1687,,
+"220174","Total number of indoor cinemas","CHN","People's Republic of China","2006","2006",1325,,
+"220174","Total number of indoor cinemas","CHN","People's Republic of China","2007","2007",1427,,
+"220174","Total number of indoor cinemas","CHN","People's Republic of China","2008","2008",1545,,
+"220174","Total number of indoor cinemas","CHN","People's Republic of China","2009","2009",1687,,
 "220174","Total number of indoor cinemas","COL","Colombia","2009","2009",138,,
 "220174","Total number of indoor cinemas","COL","Colombia","2010","2010",133,,
 "220174","Total number of indoor cinemas","COL","Colombia","2011","2011",150,,
@@ -4615,15 +4615,15 @@
 "220174","Total number of indoor cinemas","GUY","Guyana","2009","2009",2,,
 "220174","Total number of indoor cinemas","GUY","Guyana","2010","2010",5,,
 "220174","Total number of indoor cinemas","GUY","Guyana","2011","2011",5,,
-"220174","Total number of indoor cinemas","IRN","Iran (Islamic Republic of)","2007","2007",181,,
-"220174","Total number of indoor cinemas","IRN","Iran (Islamic Republic of)","2008","2008",182,,
-"220174","Total number of indoor cinemas","IRN","Iran (Islamic Republic of)","2009","2009",226,,
-"220174","Total number of indoor cinemas","IRN","Iran (Islamic Republic of)","2010","2010",330,,
-"220174","Total number of indoor cinemas","IRN","Iran (Islamic Republic of)","2011","2011",345,,
-"220174","Total number of indoor cinemas","IRN","Iran (Islamic Republic of)","2014","2014",172,,
-"220174","Total number of indoor cinemas","IRN","Iran (Islamic Republic of)","2015","2015",180,,
-"220174","Total number of indoor cinemas","IRN","Iran (Islamic Republic of)","2016","2016",279,,
-"220174","Total number of indoor cinemas","IRN","Iran (Islamic Republic of)","2017","2017",339,,
+"220174","Total number of indoor cinemas","IRN","Iran","2007","2007",181,,
+"220174","Total number of indoor cinemas","IRN","Iran","2008","2008",182,,
+"220174","Total number of indoor cinemas","IRN","Iran","2009","2009",226,,
+"220174","Total number of indoor cinemas","IRN","Iran","2010","2010",330,,
+"220174","Total number of indoor cinemas","IRN","Iran","2011","2011",345,,
+"220174","Total number of indoor cinemas","IRN","Iran","2014","2014",172,,
+"220174","Total number of indoor cinemas","IRN","Iran","2015","2015",180,,
+"220174","Total number of indoor cinemas","IRN","Iran","2016","2016",279,,
+"220174","Total number of indoor cinemas","IRN","Iran","2017","2017",339,,
 "220174","Total number of indoor cinemas","ISR","Israel","2005","2005",60,,
 "220174","Total number of indoor cinemas","ISR","Israel","2006","2006",58,,
 "220174","Total number of indoor cinemas","ISR","Israel","2007","2007",53,,
@@ -4813,15 +4813,15 @@
 "220174","Total number of indoor cinemas","ROU","Romania","2015","2015",82,,
 "220174","Total number of indoor cinemas","ROU","Romania","2016","2016",92,,
 "220174","Total number of indoor cinemas","ROU","Romania","2017","2017",90,,
-"220174","Total number of indoor cinemas","RUS","Russian Federation","2007","2007",691,,
-"220174","Total number of indoor cinemas","RUS","Russian Federation","2008","2008",769,,
-"220174","Total number of indoor cinemas","RUS","Russian Federation","2009","2009",807,,
-"220174","Total number of indoor cinemas","RUS","Russian Federation","2010","2010",855,,
-"220174","Total number of indoor cinemas","RUS","Russian Federation","2011","2011",925,,
-"220174","Total number of indoor cinemas","RUS","Russian Federation","2012","2012",1025,"‡","UIS Estimation"
-"220174","Total number of indoor cinemas","RUS","Russian Federation","2013","2013",1101,"‡","UIS Estimation"
-"220174","Total number of indoor cinemas","RUS","Russian Federation","2016","2016",1366,,
-"220174","Total number of indoor cinemas","RUS","Russian Federation","2017","2017",1596,,
+"220174","Total number of indoor cinemas","RUS","Russia","2007","2007",691,,
+"220174","Total number of indoor cinemas","RUS","Russia","2008","2008",769,,
+"220174","Total number of indoor cinemas","RUS","Russia","2009","2009",807,,
+"220174","Total number of indoor cinemas","RUS","Russia","2010","2010",855,,
+"220174","Total number of indoor cinemas","RUS","Russia","2011","2011",925,,
+"220174","Total number of indoor cinemas","RUS","Russia","2012","2012",1025,"‡","UIS Estimation"
+"220174","Total number of indoor cinemas","RUS","Russia","2013","2013",1101,"‡","UIS Estimation"
+"220174","Total number of indoor cinemas","RUS","Russia","2016","2016",1366,,
+"220174","Total number of indoor cinemas","RUS","Russia","2017","2017",1596,,
 "220174","Total number of indoor cinemas","KNA","Saint Kitts and Nevis","2008","2008",1,,
 "220174","Total number of indoor cinemas","KNA","Saint Kitts and Nevis","2009","2009",1,,
 "220174","Total number of indoor cinemas","VCT","Saint Vincent and the Grenadines","2005","2005",2,,
@@ -5162,19 +5162,19 @@
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","TUR","Turkey","2011","2011",7.9,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","TUR","Turkey","2012","2012",8.5,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","TUR","Turkey","2013","2013",9.1,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",12.2,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2006","2006",12.8,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",13.3,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",13.3,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",13,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",12.9,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",13.3,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",13.6,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",13.3,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",13.1,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",12.9,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",13.1,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",13.2,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2005","2005",12.2,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2006","2006",12.8,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2007","2007",13.3,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2008","2008",13.3,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2009","2009",13,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2010","2010",12.9,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2011","2011",13.3,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2012","2012",13.6,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2013","2013",13.3,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2014","2014",13.1,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2015","2015",12.9,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2016","2016",13.1,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GBR","United Kingdom","2017","2017",13.2,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","USA","United States of America","2006","2006",23.5,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","USA","United States of America","2007","2007",23,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","USA","United States of America","2008","2008",22.8,,
@@ -5292,10 +5292,10 @@
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","CHL","Chile","2015","2015",4.2,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","CHL","Chile","2016","2016",3.7,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","CHL","Chile","2017","2017",4,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","CHN","China","2006","2006",1.1,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","CHN","China","2007","2007",1.2,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","CHN","China","2008","2008",1.3,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","CHN","China","2009","2009",1.4,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","CHN","People's Republic of China","2006","2006",1.1,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","CHN","People's Republic of China","2007","2007",1.2,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","CHN","People's Republic of China","2008","2008",1.3,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","CHN","People's Republic of China","2009","2009",1.4,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","COL","Colombia","2009","2009",3.4,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","COL","Colombia","2010","2010",3.2,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","COL","Colombia","2011","2011",3.6,,
@@ -5397,15 +5397,15 @@
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GUY","Guyana","2009","2009",3,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GUY","Guyana","2010","2010",7.3,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","GUY","Guyana","2011","2011",7.2,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran (Islamic Republic of)","2007","2007",2.8,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran (Islamic Republic of)","2008","2008",2.7,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran (Islamic Republic of)","2009","2009",3.4,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran (Islamic Republic of)","2010","2010",4.9,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran (Islamic Republic of)","2011","2011",5.1,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran (Islamic Republic of)","2014","2014",2.4,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran (Islamic Republic of)","2015","2015",2.5,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran (Islamic Republic of)","2016","2016",3.8,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran (Islamic Republic of)","2017","2017",4.6,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran","2007","2007",2.8,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran","2008","2008",2.7,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran","2009","2009",3.4,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran","2010","2010",4.9,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran","2011","2011",5.1,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran","2014","2014",2.4,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran","2015","2015",2.5,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran","2016","2016",3.8,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","IRN","Iran","2017","2017",4.6,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","ISR","Israel","2005","2005",10.4,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","ISR","Israel","2006","2006",9.8,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","ISR","Israel","2007","2007",8.7,,
@@ -5595,15 +5595,15 @@
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","ROU","Romania","2015","2015",4.5,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","ROU","Romania","2016","2016",5.1,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","ROU","Romania","2017","2017",5,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russian Federation","2007","2007",5.2,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russian Federation","2008","2008",5.8,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russian Federation","2009","2009",6.1,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russian Federation","2010","2010",6.5,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russian Federation","2011","2011",7.1,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russian Federation","2012","2012",7.9,"‡","UIS Estimation"
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russian Federation","2013","2013",8.4,"‡","UIS Estimation"
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russian Federation","2016","2016",10.5,,
-"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russian Federation","2017","2017",12.3,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russia","2007","2007",5.2,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russia","2008","2008",5.8,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russia","2009","2009",6.1,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russia","2010","2010",6.5,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russia","2011","2011",7.1,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russia","2012","2012",7.9,"‡","UIS Estimation"
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russia","2013","2013",8.4,"‡","UIS Estimation"
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russia","2016","2016",10.5,,
+"FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","RUS","Russia","2017","2017",12.3,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","KNA","Saint Kitts and Nevis","2008","2008",21.9,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","KNA","Saint Kitts and Nevis","2009","2009",21.6,,
 "FCINH_IND","Indoor cinemas per capita (per 1,000,000 inhabitants)","VCT","Saint Vincent and the Grenadines","2005","2005",20.5,,
@@ -6368,20 +6368,20 @@
 "220209","Total number of screens","TUR","Turkey","2015","2015",2648,"‡","UIS Estimation"
 "220209","Total number of screens","TUR","Turkey","2016","2016",2240,,
 "220209","Total number of screens","TUR","Turkey","2017","2017",2383,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","1995","1995",2019,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",3357,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2006","2006",3440,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",3514,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",3610,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",3651,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",3651,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",3767,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",3817,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",3867,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",3909,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",4046,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",4150,,
-"220209","Total number of screens","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",4264,,
+"220209","Total number of screens","GBR","United Kingdom","1995","1995",2019,,
+"220209","Total number of screens","GBR","United Kingdom","2005","2005",3357,,
+"220209","Total number of screens","GBR","United Kingdom","2006","2006",3440,,
+"220209","Total number of screens","GBR","United Kingdom","2007","2007",3514,,
+"220209","Total number of screens","GBR","United Kingdom","2008","2008",3610,,
+"220209","Total number of screens","GBR","United Kingdom","2009","2009",3651,,
+"220209","Total number of screens","GBR","United Kingdom","2010","2010",3651,,
+"220209","Total number of screens","GBR","United Kingdom","2011","2011",3767,,
+"220209","Total number of screens","GBR","United Kingdom","2012","2012",3817,,
+"220209","Total number of screens","GBR","United Kingdom","2013","2013",3867,,
+"220209","Total number of screens","GBR","United Kingdom","2014","2014",3909,,
+"220209","Total number of screens","GBR","United Kingdom","2015","2015",4046,,
+"220209","Total number of screens","GBR","United Kingdom","2016","2016",4150,,
+"220209","Total number of screens","GBR","United Kingdom","2017","2017",4264,,
 "220209","Total number of screens","USA","United States of America","2000","2000",7421,,
 "220209","Total number of screens","USA","United States of America","2005","2005",38143,,
 "220209","Total number of screens","USA","United States of America","2006","2006",38415,,
@@ -6529,18 +6529,18 @@
 "220209","Total number of screens","CHL","Chile","2015","2015",366,,
 "220209","Total number of screens","CHL","Chile","2016","2016",380,,
 "220209","Total number of screens","CHL","Chile","2017","2017",411,,
-"220209","Total number of screens","CHN","China","2006","2006",3034,,
-"220209","Total number of screens","CHN","China","2007","2007",3527,,
-"220209","Total number of screens","CHN","China","2008","2008",4097,,
-"220209","Total number of screens","CHN","China","2009","2009",4723,,
-"220209","Total number of screens","CHN","China","2010","2010",6256,,
-"220209","Total number of screens","CHN","China","2011","2011",9286,,
-"220209","Total number of screens","CHN","China","2012","2012",13118,,
-"220209","Total number of screens","CHN","China","2013","2013",18195,,
-"220209","Total number of screens","CHN","China","2014","2014",24607,"‡","UIS Estimation"
-"220209","Total number of screens","CHN","China","2015","2015",31627,"‡","UIS Estimation"
-"220209","Total number of screens","CHN","China","2016","2016",41179,"‡","UIS Estimation"
-"220209","Total number of screens","CHN","China","2017","2017",50776,"‡","UIS Estimation"
+"220209","Total number of screens","CHN","People's Republic of China","2006","2006",3034,,
+"220209","Total number of screens","CHN","People's Republic of China","2007","2007",3527,,
+"220209","Total number of screens","CHN","People's Republic of China","2008","2008",4097,,
+"220209","Total number of screens","CHN","People's Republic of China","2009","2009",4723,,
+"220209","Total number of screens","CHN","People's Republic of China","2010","2010",6256,,
+"220209","Total number of screens","CHN","People's Republic of China","2011","2011",9286,,
+"220209","Total number of screens","CHN","People's Republic of China","2012","2012",13118,,
+"220209","Total number of screens","CHN","People's Republic of China","2013","2013",18195,,
+"220209","Total number of screens","CHN","People's Republic of China","2014","2014",24607,"‡","UIS Estimation"
+"220209","Total number of screens","CHN","People's Republic of China","2015","2015",31627,"‡","UIS Estimation"
+"220209","Total number of screens","CHN","People's Republic of China","2016","2016",41179,"‡","UIS Estimation"
+"220209","Total number of screens","CHN","People's Republic of China","2017","2017",50776,"‡","UIS Estimation"
 "220209","Total number of screens","COL","Colombia","1999","1999",277,,
 "220209","Total number of screens","COL","Colombia","2005","2005",444,,
 "220209","Total number of screens","COL","Colombia","2006","2006",475,,
@@ -6701,16 +6701,16 @@
 "220209","Total number of screens","IDN","Indonesia","2013","2013",842,"‡","UIS Estimation"
 "220209","Total number of screens","IDN","Indonesia","2014","2014",963,"‡","UIS Estimation"
 "220209","Total number of screens","IDN","Indonesia","2015","2015",1146,"‡","UIS Estimation"
-"220209","Total number of screens","IRN","Iran (Islamic Republic of)","2005","2005",243,,
-"220209","Total number of screens","IRN","Iran (Islamic Republic of)","2006","2006",239,,
-"220209","Total number of screens","IRN","Iran (Islamic Republic of)","2007","2007",240,,
-"220209","Total number of screens","IRN","Iran (Islamic Republic of)","2008","2008",247,,
-"220209","Total number of screens","IRN","Iran (Islamic Republic of)","2009","2009",247,,
-"220209","Total number of screens","IRN","Iran (Islamic Republic of)","2011","2011",438,,
-"220209","Total number of screens","IRN","Iran (Islamic Republic of)","2014","2014",325,,
-"220209","Total number of screens","IRN","Iran (Islamic Republic of)","2015","2015",380,,
-"220209","Total number of screens","IRN","Iran (Islamic Republic of)","2016","2016",415,,
-"220209","Total number of screens","IRN","Iran (Islamic Republic of)","2017","2017",538,,
+"220209","Total number of screens","IRN","Iran","2005","2005",243,,
+"220209","Total number of screens","IRN","Iran","2006","2006",239,,
+"220209","Total number of screens","IRN","Iran","2007","2007",240,,
+"220209","Total number of screens","IRN","Iran","2008","2008",247,,
+"220209","Total number of screens","IRN","Iran","2009","2009",247,,
+"220209","Total number of screens","IRN","Iran","2011","2011",438,,
+"220209","Total number of screens","IRN","Iran","2014","2014",325,,
+"220209","Total number of screens","IRN","Iran","2015","2015",380,,
+"220209","Total number of screens","IRN","Iran","2016","2016",415,,
+"220209","Total number of screens","IRN","Iran","2017","2017",538,,
 "220209","Total number of screens","IRQ","Iraq","1996","1996",72,,
 "220209","Total number of screens","IRQ","Iraq","1997","1997",72,,
 "220209","Total number of screens","ISR","Israel","2005","2005",380,,
@@ -6975,24 +6975,24 @@
 "220209","Total number of screens","ROU","Romania","2015","2015",339,,
 "220209","Total number of screens","ROU","Romania","2016","2016",393,,
 "220209","Total number of screens","ROU","Romania","2017","2017",386,,
-"220209","Total number of screens","RUS","Russian Federation","1995","1995",2016,,
-"220209","Total number of screens","RUS","Russian Federation","1996","1996",1866,,
-"220209","Total number of screens","RUS","Russian Federation","1997","1997",1746,,
-"220209","Total number of screens","RUS","Russian Federation","1998","1998",1568,,
-"220209","Total number of screens","RUS","Russian Federation","1999","1999",1416,,
-"220209","Total number of screens","RUS","Russian Federation","2005","2005",1079,,
-"220209","Total number of screens","RUS","Russian Federation","2006","2006",1333,,
-"220209","Total number of screens","RUS","Russian Federation","2007","2007",1576,,
-"220209","Total number of screens","RUS","Russian Federation","2008","2008",1910,,
-"220209","Total number of screens","RUS","Russian Federation","2009","2009",2133,,
-"220209","Total number of screens","RUS","Russian Federation","2010","2010",2424,,
-"220209","Total number of screens","RUS","Russian Federation","2011","2011",2726,,
-"220209","Total number of screens","RUS","Russian Federation","2012","2012",3100,"‡","UIS Estimation"
-"220209","Total number of screens","RUS","Russian Federation","2013","2013",3479,"‡","UIS Estimation"
-"220209","Total number of screens","RUS","Russian Federation","2014","2014",3829,"‡","UIS Estimation"
-"220209","Total number of screens","RUS","Russian Federation","2015","2015",4021,"‡","UIS Estimation"
-"220209","Total number of screens","RUS","Russian Federation","2016","2016",4369,,
-"220209","Total number of screens","RUS","Russian Federation","2017","2017",4796,,
+"220209","Total number of screens","RUS","Russia","1995","1995",2016,,
+"220209","Total number of screens","RUS","Russia","1996","1996",1866,,
+"220209","Total number of screens","RUS","Russia","1997","1997",1746,,
+"220209","Total number of screens","RUS","Russia","1998","1998",1568,,
+"220209","Total number of screens","RUS","Russia","1999","1999",1416,,
+"220209","Total number of screens","RUS","Russia","2005","2005",1079,,
+"220209","Total number of screens","RUS","Russia","2006","2006",1333,,
+"220209","Total number of screens","RUS","Russia","2007","2007",1576,,
+"220209","Total number of screens","RUS","Russia","2008","2008",1910,,
+"220209","Total number of screens","RUS","Russia","2009","2009",2133,,
+"220209","Total number of screens","RUS","Russia","2010","2010",2424,,
+"220209","Total number of screens","RUS","Russia","2011","2011",2726,,
+"220209","Total number of screens","RUS","Russia","2012","2012",3100,"‡","UIS Estimation"
+"220209","Total number of screens","RUS","Russia","2013","2013",3479,"‡","UIS Estimation"
+"220209","Total number of screens","RUS","Russia","2014","2014",3829,"‡","UIS Estimation"
+"220209","Total number of screens","RUS","Russia","2015","2015",4021,"‡","UIS Estimation"
+"220209","Total number of screens","RUS","Russia","2016","2016",4369,,
+"220209","Total number of screens","RUS","Russia","2017","2017",4796,,
 "220209","Total number of screens","KNA","Saint Kitts and Nevis","2008","2008",7,,
 "220209","Total number of screens","KNA","Saint Kitts and Nevis","2009","2009",7,,
 "220209","Total number of screens","SMR","San Marino","1996","1996",3,,
@@ -7566,20 +7566,20 @@
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","TUR","Turkey","2015","2015",3.8,"‡","UIS Estimation"
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","TUR","Turkey","2016","2016",3.1,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","TUR","Turkey","2017","2017",3.3,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","1995","1995",3.9,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",6.2,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2006","2006",6.3,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",6.4,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",6.6,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",6.6,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",6.5,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",6.7,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",6.8,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",6.8,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",6.8,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",7,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",7.1,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",7.3,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","1995","1995",3.9,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2005","2005",6.2,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2006","2006",6.3,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2007","2007",6.4,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2008","2008",6.6,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2009","2009",6.6,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2010","2010",6.5,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2011","2011",6.7,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2012","2012",6.8,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2013","2013",6.8,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2014","2014",6.8,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2015","2015",7,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2016","2016",7.1,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","GBR","United Kingdom","2017","2017",7.3,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","USA","United States of America","2000","2000",2.9,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","USA","United States of America","2005","2005",14.2,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","USA","United States of America","2006","2006",14.2,,
@@ -7727,18 +7727,18 @@
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHL","Chile","2015","2015",2.3,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHL","Chile","2016","2016",2.3,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHL","Chile","2017","2017",2.5,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2006","2006",0.2,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2007","2007",0.3,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2008","2008",0.3,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2009","2009",0.4,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2010","2010",0.5,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2011","2011",0.7,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2012","2012",1,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2013","2013",1.4,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2014","2014",1.9,"‡","UIS Estimation"
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2015","2015",2.5,"‡","UIS Estimation"
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2016","2016",3.2,"‡","UIS Estimation"
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","China","2017","2017",3.9,"‡","UIS Estimation"
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2006","2006",0.2,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2007","2007",0.3,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2008","2008",0.3,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2009","2009",0.4,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2010","2010",0.5,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2011","2011",0.7,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2012","2012",1,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2013","2013",1.4,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2014","2014",1.9,"‡","UIS Estimation"
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2015","2015",2.5,"‡","UIS Estimation"
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2016","2016",3.2,"‡","UIS Estimation"
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","CHN","People's Republic of China","2017","2017",3.9,"‡","UIS Estimation"
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","COL","Colombia","1999","1999",0.8,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","COL","Colombia","2005","2005",1.2,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","COL","Colombia","2006","2006",1.2,,
@@ -7896,16 +7896,16 @@
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IDN","Indonesia","2013","2013",0.4,"‡","UIS Estimation"
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IDN","Indonesia","2014","2014",0.4,"‡","UIS Estimation"
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IDN","Indonesia","2015","2015",0.5,"‡","UIS Estimation"
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran (Islamic Republic of)","2005","2005",0.4,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran (Islamic Republic of)","2006","2006",0.4,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran (Islamic Republic of)","2007","2007",0.4,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran (Islamic Republic of)","2008","2008",0.4,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran (Islamic Republic of)","2009","2009",0.4,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran (Islamic Republic of)","2011","2011",0.6,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran (Islamic Republic of)","2014","2014",0.5,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran (Islamic Republic of)","2015","2015",0.5,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran (Islamic Republic of)","2016","2016",0.6,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran (Islamic Republic of)","2017","2017",0.7,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran","2005","2005",0.4,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran","2006","2006",0.4,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran","2007","2007",0.4,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran","2008","2008",0.4,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran","2009","2009",0.4,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran","2011","2011",0.6,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran","2014","2014",0.5,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran","2015","2015",0.5,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran","2016","2016",0.6,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRN","Iran","2017","2017",0.7,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRQ","Iraq","1996","1996",0.4,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","IRQ","Iraq","1997","1997",0.4,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","ISR","Israel","2005","2005",6.6,,
@@ -8170,24 +8170,24 @@
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","ROU","Romania","2015","2015",1.9,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","ROU","Romania","2016","2016",2.2,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","ROU","Romania","2017","2017",2.2,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","1995","1995",1.5,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","1996","1996",1.4,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","1997","1997",1.3,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","1998","1998",1.1,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","1999","1999",1,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2005","2005",0.8,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2006","2006",1,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2007","2007",1.2,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2008","2008",1.4,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2009","2009",1.6,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2010","2010",1.8,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2011","2011",2.1,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2012","2012",2.4,"‡","UIS Estimation"
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2013","2013",2.7,"‡","UIS Estimation"
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2014","2014",2.9,"‡","UIS Estimation"
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2015","2015",3.1,"‡","UIS Estimation"
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2016","2016",3.4,,
-"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russian Federation","2017","2017",3.7,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","1995","1995",1.5,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","1996","1996",1.4,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","1997","1997",1.3,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","1998","1998",1.1,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","1999","1999",1,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2005","2005",0.8,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2006","2006",1,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2007","2007",1.2,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2008","2008",1.4,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2009","2009",1.6,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2010","2010",1.8,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2011","2011",2.1,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2012","2012",2.4,"‡","UIS Estimation"
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2013","2013",2.7,"‡","UIS Estimation"
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2014","2014",2.9,"‡","UIS Estimation"
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2015","2015",3.1,"‡","UIS Estimation"
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2016","2016",3.4,,
+"FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","RUS","Russia","2017","2017",3.7,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","KNA","Saint Kitts and Nevis","2008","2008",15.3,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","KNA","Saint Kitts and Nevis","2009","2009",15.1,,
 "FSINH_IND_100K","Screen per capita (per 100,000 inhabitants)","SGP","Singapore","2005","2005",3.5,,
@@ -8667,19 +8667,19 @@
 "220211","Total number of seats","TUR","Turkey","2013","2013",271250,,
 "220211","Total number of seats","TUR","Turkey","2016","2016",263838,,
 "220211","Total number of seats","TUR","Turkey","2017","2017",282629,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",744752,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2006","2006",753896,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",765652,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",782070,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",783629,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",783629,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",793536,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",775226,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",774239,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",776155,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",783790,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",793899,,
-"220211","Total number of seats","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",788759,,
+"220211","Total number of seats","GBR","United Kingdom","2005","2005",744752,,
+"220211","Total number of seats","GBR","United Kingdom","2006","2006",753896,,
+"220211","Total number of seats","GBR","United Kingdom","2007","2007",765652,,
+"220211","Total number of seats","GBR","United Kingdom","2008","2008",782070,,
+"220211","Total number of seats","GBR","United Kingdom","2009","2009",783629,,
+"220211","Total number of seats","GBR","United Kingdom","2010","2010",783629,,
+"220211","Total number of seats","GBR","United Kingdom","2011","2011",793536,,
+"220211","Total number of seats","GBR","United Kingdom","2012","2012",775226,,
+"220211","Total number of seats","GBR","United Kingdom","2013","2013",774239,,
+"220211","Total number of seats","GBR","United Kingdom","2014","2014",776155,,
+"220211","Total number of seats","GBR","United Kingdom","2015","2015",783790,,
+"220211","Total number of seats","GBR","United Kingdom","2016","2016",793899,,
+"220211","Total number of seats","GBR","United Kingdom","2017","2017",788759,,
 "220211","Total number of seats","DZA","Algeria","2016","2016",32400,,
 "220211","Total number of seats","DZA","Algeria","2017","2017",32400,,
 "220211","Total number of seats","AGO","Angola","2016","2016",1456,,
@@ -8877,14 +8877,14 @@
 "220211","Total number of seats","HKG","China, Hong Kong Special Administrative Region","1995","1995",94800,,
 "220211","Total number of seats","IDN","Indonesia","1996","1996",674449,,
 "220211","Total number of seats","IDN","Indonesia","1997","1997",674449,,
-"220211","Total number of seats","IRN","Iran (Islamic Republic of)","1995","1995",173000,,
-"220211","Total number of seats","IRN","Iran (Islamic Republic of)","2007","2007",118000,,
-"220211","Total number of seats","IRN","Iran (Islamic Republic of)","2008","2008",114000,,
-"220211","Total number of seats","IRN","Iran (Islamic Republic of)","2009","2009",108960,,
-"220211","Total number of seats","IRN","Iran (Islamic Republic of)","2014","2014",118170,,
-"220211","Total number of seats","IRN","Iran (Islamic Republic of)","2015","2015",127000,,
-"220211","Total number of seats","IRN","Iran (Islamic Republic of)","2016","2016",129123,,
-"220211","Total number of seats","IRN","Iran (Islamic Republic of)","2017","2017",153880,,
+"220211","Total number of seats","IRN","Iran","1995","1995",173000,,
+"220211","Total number of seats","IRN","Iran","2007","2007",118000,,
+"220211","Total number of seats","IRN","Iran","2008","2008",114000,,
+"220211","Total number of seats","IRN","Iran","2009","2009",108960,,
+"220211","Total number of seats","IRN","Iran","2014","2014",118170,,
+"220211","Total number of seats","IRN","Iran","2015","2015",127000,,
+"220211","Total number of seats","IRN","Iran","2016","2016",129123,,
+"220211","Total number of seats","IRN","Iran","2017","2017",153880,,
 "220211","Total number of seats","ISR","Israel","2007","2007",46796,,
 "220211","Total number of seats","ISR","Israel","2008","2008",48313,,
 "220211","Total number of seats","ISR","Israel","2009","2009",44565,,
@@ -9088,11 +9088,11 @@
 "220211","Total number of seats","ROU","Romania","2015","2015",68415,,
 "220211","Total number of seats","ROU","Romania","2016","2016",74116,,
 "220211","Total number of seats","ROU","Romania","2017","2017",72112,,
-"220211","Total number of seats","RUS","Russian Federation","1995","1995",875800,,
-"220211","Total number of seats","RUS","Russian Federation","1996","1996",850800,,
-"220211","Total number of seats","RUS","Russian Federation","1997","1997",778900,,
-"220211","Total number of seats","RUS","Russian Federation","1998","1998",691000,,
-"220211","Total number of seats","RUS","Russian Federation","1999","1999",613000,,
+"220211","Total number of seats","RUS","Russia","1995","1995",875800,,
+"220211","Total number of seats","RUS","Russia","1996","1996",850800,,
+"220211","Total number of seats","RUS","Russia","1997","1997",778900,,
+"220211","Total number of seats","RUS","Russia","1998","1998",691000,,
+"220211","Total number of seats","RUS","Russia","1999","1999",613000,,
 "220211","Total number of seats","SMR","San Marino","1995","1995",1800,,
 "220211","Total number of seats","SMR","San Marino","1996","1996",1781,,
 "220211","Total number of seats","SMR","San Marino","1997","1997",1901,,
@@ -9514,19 +9514,19 @@
 "FSIND_SE","Number of seats per screen","TUR","Turkey","2013","2013",125,,
 "FSIND_SE","Number of seats per screen","TUR","Turkey","2016","2016",118,,
 "FSIND_SE","Number of seats per screen","TUR","Turkey","2017","2017",119,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",222,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2006","2006",219,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",218,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",217,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",215,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",215,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",211,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",203,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",200,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",199,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",194,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",191,,
-"FSIND_SE","Number of seats per screen","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",185,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2005","2005",222,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2006","2006",219,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2007","2007",218,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2008","2008",217,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2009","2009",215,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2010","2010",215,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2011","2011",211,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2012","2012",203,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2013","2013",200,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2014","2014",199,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2015","2015",194,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2016","2016",191,,
+"FSIND_SE","Number of seats per screen","GBR","United Kingdom","2017","2017",185,,
 "FSIND_SE","Number of seats per screen","DZA","Algeria","2016","2016",405,,
 "FSIND_SE","Number of seats per screen","DZA","Algeria","2017","2017",405,,
 "FSIND_SE","Number of seats per screen","ARG","Argentina","2007","2007",270,,
@@ -9681,13 +9681,13 @@
 "FSIND_SE","Number of seats per screen","GEO","Georgia","2017","2017",190,,
 "FSIND_SE","Number of seats per screen","IDN","Indonesia","1996","1996",681,,
 "FSIND_SE","Number of seats per screen","IDN","Indonesia","1997","1997",681,,
-"FSIND_SE","Number of seats per screen","IRN","Iran (Islamic Republic of)","2007","2007",492,,
-"FSIND_SE","Number of seats per screen","IRN","Iran (Islamic Republic of)","2008","2008",462,,
-"FSIND_SE","Number of seats per screen","IRN","Iran (Islamic Republic of)","2009","2009",441,,
-"FSIND_SE","Number of seats per screen","IRN","Iran (Islamic Republic of)","2014","2014",364,,
-"FSIND_SE","Number of seats per screen","IRN","Iran (Islamic Republic of)","2015","2015",334,,
-"FSIND_SE","Number of seats per screen","IRN","Iran (Islamic Republic of)","2016","2016",311,,
-"FSIND_SE","Number of seats per screen","IRN","Iran (Islamic Republic of)","2017","2017",286,,
+"FSIND_SE","Number of seats per screen","IRN","Iran","2007","2007",492,,
+"FSIND_SE","Number of seats per screen","IRN","Iran","2008","2008",462,,
+"FSIND_SE","Number of seats per screen","IRN","Iran","2009","2009",441,,
+"FSIND_SE","Number of seats per screen","IRN","Iran","2014","2014",364,,
+"FSIND_SE","Number of seats per screen","IRN","Iran","2015","2015",334,,
+"FSIND_SE","Number of seats per screen","IRN","Iran","2016","2016",311,,
+"FSIND_SE","Number of seats per screen","IRN","Iran","2017","2017",286,,
 "FSIND_SE","Number of seats per screen","ISR","Israel","2010","2010",158,,
 "FSIND_SE","Number of seats per screen","ISR","Israel","2011","2011",161,,
 "FSIND_SE","Number of seats per screen","ISR","Israel","2012","2012",160,,
@@ -9861,11 +9861,11 @@
 "FSIND_SE","Number of seats per screen","ROU","Romania","2015","2015",202,,
 "FSIND_SE","Number of seats per screen","ROU","Romania","2016","2016",189,,
 "FSIND_SE","Number of seats per screen","ROU","Romania","2017","2017",187,,
-"FSIND_SE","Number of seats per screen","RUS","Russian Federation","1995","1995",434,,
-"FSIND_SE","Number of seats per screen","RUS","Russian Federation","1996","1996",456,,
-"FSIND_SE","Number of seats per screen","RUS","Russian Federation","1997","1997",446,,
-"FSIND_SE","Number of seats per screen","RUS","Russian Federation","1998","1998",441,,
-"FSIND_SE","Number of seats per screen","RUS","Russian Federation","1999","1999",433,,
+"FSIND_SE","Number of seats per screen","RUS","Russia","1995","1995",434,,
+"FSIND_SE","Number of seats per screen","RUS","Russia","1996","1996",456,,
+"FSIND_SE","Number of seats per screen","RUS","Russia","1997","1997",446,,
+"FSIND_SE","Number of seats per screen","RUS","Russia","1998","1998",441,,
+"FSIND_SE","Number of seats per screen","RUS","Russia","1999","1999",433,,
 "FSIND_SE","Number of seats per screen","SMR","San Marino","1996","1996",594,,
 "FSIND_SE","Number of seats per screen","SMR","San Marino","1997","1997",634,,
 "FSIND_SE","Number of seats per screen","SGP","Singapore","2005","2005",247,,
@@ -10197,17 +10197,17 @@
 "220059","Total number of all feature films exhibited","TUR","Turkey","2013","2013",501,,
 "220059","Total number of all feature films exhibited","TUR","Turkey","2016","2016",529,,
 "220059","Total number of all feature films exhibited","TUR","Turkey","2017","2017",538,,
-"220059","Total number of all feature films exhibited","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",520,,
-"220059","Total number of all feature films exhibited","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",527,,
-"220059","Total number of all feature films exhibited","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",503,,
-"220059","Total number of all feature films exhibited","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",557,,
-"220059","Total number of all feature films exhibited","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",558,,
-"220059","Total number of all feature films exhibited","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",647,,
-"220059","Total number of all feature films exhibited","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",698,,
-"220059","Total number of all feature films exhibited","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",712,,
-"220059","Total number of all feature films exhibited","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",759,,
-"220059","Total number of all feature films exhibited","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",821,,
-"220059","Total number of all feature films exhibited","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",760,,
+"220059","Total number of all feature films exhibited","GBR","United Kingdom","2007","2007",520,,
+"220059","Total number of all feature films exhibited","GBR","United Kingdom","2008","2008",527,,
+"220059","Total number of all feature films exhibited","GBR","United Kingdom","2009","2009",503,,
+"220059","Total number of all feature films exhibited","GBR","United Kingdom","2010","2010",557,,
+"220059","Total number of all feature films exhibited","GBR","United Kingdom","2011","2011",558,,
+"220059","Total number of all feature films exhibited","GBR","United Kingdom","2012","2012",647,,
+"220059","Total number of all feature films exhibited","GBR","United Kingdom","2013","2013",698,,
+"220059","Total number of all feature films exhibited","GBR","United Kingdom","2014","2014",712,,
+"220059","Total number of all feature films exhibited","GBR","United Kingdom","2015","2015",759,,
+"220059","Total number of all feature films exhibited","GBR","United Kingdom","2016","2016",821,,
+"220059","Total number of all feature films exhibited","GBR","United Kingdom","2017","2017",760,,
 "220059","Total number of all feature films exhibited","USA","United States of America","2007","2007",752,,
 "220059","Total number of all feature films exhibited","USA","United States of America","2008","2008",758,,
 "220059","Total number of all feature films exhibited","USA","United States of America","2009","2009",699,,
@@ -10407,9 +10407,9 @@
 "220059","Total number of all feature films exhibited","ROU","Romania","2015","2015",442,,
 "220059","Total number of all feature films exhibited","ROU","Romania","2016","2016",505,,
 "220059","Total number of all feature films exhibited","ROU","Romania","2017","2017",442,,
-"220059","Total number of all feature films exhibited","RUS","Russian Federation","2007","2007",350,,
-"220059","Total number of all feature films exhibited","RUS","Russian Federation","2008","2008",355,,
-"220059","Total number of all feature films exhibited","RUS","Russian Federation","2009","2009",324,,
+"220059","Total number of all feature films exhibited","RUS","Russia","2007","2007",350,,
+"220059","Total number of all feature films exhibited","RUS","Russia","2008","2008",355,,
+"220059","Total number of all feature films exhibited","RUS","Russia","2009","2009",324,,
 "220059","Total number of all feature films exhibited","SGP","Singapore","2005","2005",376,,
 "220059","Total number of all feature films exhibited","SGP","Singapore","2006","2006",409,,
 "220059","Total number of all feature films exhibited","SVN","Slovenia","2005","2005",432,,
@@ -10941,24 +10941,24 @@
 "FADMINH","Attendance frequency per capita","TUR","Turkey","2015","2015",0.86,"‡","UIS Estimation"
 "FADMINH","Attendance frequency per capita","TUR","Turkey","2016","2016",0.81,,
 "FADMINH","Attendance frequency per capita","TUR","Turkey","2017","2017",0.98,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","1995","1995",2.21,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","1996","1996",2.38,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","1997","1997",2.66,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","1998","1998",2.58,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","1999","1999",2.64,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",3.04,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2006","2006",2.88,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",2.97,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",3,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",3.12,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",3.02,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",3.05,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",3.05,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",2.91,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",2.75,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",2.96,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",2.88,,
-"FADMINH","Attendance frequency per capita","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",2.9,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","1995","1995",2.21,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","1996","1996",2.38,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","1997","1997",2.66,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","1998","1998",2.58,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","1999","1999",2.64,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2005","2005",3.04,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2006","2006",2.88,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2007","2007",2.97,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2008","2008",3,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2009","2009",3.12,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2010","2010",3.02,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2011","2011",3.05,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2012","2012",3.05,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2013","2013",2.91,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2014","2014",2.75,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2015","2015",2.96,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2016","2016",2.88,,
+"FADMINH","Attendance frequency per capita","GBR","United Kingdom","2017","2017",2.9,,
 "FADMINH","Attendance frequency per capita","USA","United States of America","1995","1995",5.29,,
 "FADMINH","Attendance frequency per capita","USA","United States of America","1996","1996",5.55,,
 "FADMINH","Attendance frequency per capita","USA","United States of America","1997","1997",5.36,,
@@ -11103,21 +11103,21 @@
 "FADMINH","Attendance frequency per capita","CHL","Chile","2015","2015",1.53,,
 "FADMINH","Attendance frequency per capita","CHL","Chile","2016","2016",1.69,,
 "FADMINH","Attendance frequency per capita","CHL","Chile","2017","2017",1.68,,
-"FADMINH","Attendance frequency per capita","CHN","China","1995","1995",0.12,,
-"FADMINH","Attendance frequency per capita","CHN","China","1996","1996",0.13,,
-"FADMINH","Attendance frequency per capita","CHN","China","2005","2005",0.13,,
-"FADMINH","Attendance frequency per capita","CHN","China","2006","2006",0.14,,
-"FADMINH","Attendance frequency per capita","CHN","China","2007","2007",0.16,,
-"FADMINH","Attendance frequency per capita","CHN","China","2008","2008",0.17,,
-"FADMINH","Attendance frequency per capita","CHN","China","2009","2009",0.21,,
-"FADMINH","Attendance frequency per capita","CHN","China","2010","2010",0.23,,
-"FADMINH","Attendance frequency per capita","CHN","China","2011","2011",0.3,,
-"FADMINH","Attendance frequency per capita","CHN","China","2012","2012",0.37,,
-"FADMINH","Attendance frequency per capita","CHN","China","2013","2013",0.49,,
-"FADMINH","Attendance frequency per capita","CHN","China","2014","2014",0.66,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","CHN","China","2015","2015",0.98,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","CHN","China","2016","2016",1.06,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","CHN","China","2017","2017",1.25,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","1995","1995",0.12,,
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","1996","1996",0.13,,
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2005","2005",0.13,,
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2006","2006",0.14,,
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2007","2007",0.16,,
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2008","2008",0.17,,
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2009","2009",0.21,,
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2010","2010",0.23,,
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2011","2011",0.3,,
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2012","2012",0.37,,
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2013","2013",0.49,,
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2014","2014",0.66,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2015","2015",0.98,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2016","2016",1.06,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","CHN","People's Republic of China","2017","2017",1.25,"‡","UIS Estimation"
 "FADMINH","Attendance frequency per capita","COL","Colombia","1998","1998",0.54,,
 "FADMINH","Attendance frequency per capita","COL","Colombia","2005","2005",0.42,,
 "FADMINH","Attendance frequency per capita","COL","Colombia","2006","2006",0.52,,
@@ -11288,18 +11288,18 @@
 "FADMINH","Attendance frequency per capita","IDN","Indonesia","2013","2013",0.16,"‡","UIS Estimation"
 "FADMINH","Attendance frequency per capita","IDN","Indonesia","2014","2014",0.38,"‡","UIS Estimation"
 "FADMINH","Attendance frequency per capita","IDN","Indonesia","2016","2016",0.38,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","1995","1995",0.5,,
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","2007","2007",0.22,,
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","2008","2008",0.23,,
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","2009","2009",0.27,,
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","2010","2010",0.16,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","2011","2011",0.14,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","2012","2012",0.11,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","2013","2013",0.09,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","2014","2014",0.19,,
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","2015","2015",0.15,,
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","2016","2016",0.29,,
-"FADMINH","Attendance frequency per capita","IRN","Iran (Islamic Republic of)","2017","2017",0.26,,
+"FADMINH","Attendance frequency per capita","IRN","Iran","1995","1995",0.5,,
+"FADMINH","Attendance frequency per capita","IRN","Iran","2007","2007",0.22,,
+"FADMINH","Attendance frequency per capita","IRN","Iran","2008","2008",0.23,,
+"FADMINH","Attendance frequency per capita","IRN","Iran","2009","2009",0.27,,
+"FADMINH","Attendance frequency per capita","IRN","Iran","2010","2010",0.16,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","IRN","Iran","2011","2011",0.14,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","IRN","Iran","2012","2012",0.11,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","IRN","Iran","2013","2013",0.09,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","IRN","Iran","2014","2014",0.19,,
+"FADMINH","Attendance frequency per capita","IRN","Iran","2015","2015",0.15,,
+"FADMINH","Attendance frequency per capita","IRN","Iran","2016","2016",0.29,,
+"FADMINH","Attendance frequency per capita","IRN","Iran","2017","2017",0.26,,
 "FADMINH","Attendance frequency per capita","ISR","Israel","2005","2005",1.66,"‡","UIS Estimation"
 "FADMINH","Attendance frequency per capita","ISR","Israel","2006","2006",1.62,"‡","UIS Estimation"
 "FADMINH","Attendance frequency per capita","ISR","Israel","2007","2007",1.61,,
@@ -11548,24 +11548,24 @@
 "FADMINH","Attendance frequency per capita","ROU","Romania","2015","2015",0.62,,
 "FADMINH","Attendance frequency per capita","ROU","Romania","2016","2016",0.73,,
 "FADMINH","Attendance frequency per capita","ROU","Romania","2017","2017",0.78,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","1995","1995",0.1,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","1996","1996",0.15,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","1997","1997",0.12,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","1998","1998",0.15,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","1999","1999",0.14,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2005","2005",0.62,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2006","2006",0.69,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2007","2007",0.79,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2008","2008",0.89,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2009","2009",1,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2010","2010",1.19,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2011","2011",1.17,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2012","2012",1.23,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2013","2013",1.36,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2014","2014",1.35,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2015","2015",1.34,"‡","UIS Estimation"
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2016","2016",1.49,,
-"FADMINH","Attendance frequency per capita","RUS","Russian Federation","2017","2017",1.64,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","1995","1995",0.1,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","1996","1996",0.15,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","1997","1997",0.12,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","1998","1998",0.15,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","1999","1999",0.14,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","2005","2005",0.62,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","2006","2006",0.69,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","2007","2007",0.79,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","2008","2008",0.89,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","2009","2009",1,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","2010","2010",1.19,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","2011","2011",1.17,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","2012","2012",1.23,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","RUS","Russia","2013","2013",1.36,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","RUS","Russia","2014","2014",1.35,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","RUS","Russia","2015","2015",1.34,"‡","UIS Estimation"
+"FADMINH","Attendance frequency per capita","RUS","Russia","2016","2016",1.49,,
+"FADMINH","Attendance frequency per capita","RUS","Russia","2017","2017",1.64,,
 "FADMINH","Attendance frequency per capita","SEN","Senegal","2011","2011",,"n","Magnitude nil or negligible"
 "FADMINH","Attendance frequency per capita","SEN","Senegal","2012","2012",,"n","Magnitude nil or negligible"
 "FADMINH","Attendance frequency per capita","SEN","Senegal","2013","2013",0.01,,
@@ -12166,24 +12166,24 @@
 "FBORADM","Average ticket price (in local currency)","TUR","Turkey","2015","2015",11.3,"‡","UIS Estimation"
 "FBORADM","Average ticket price (in local currency)","TUR","Turkey","2016","2016",11.9,,
 "FBORADM","Average ticket price (in local currency)","TUR","Turkey","2017","2017",12.2,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","1995","1995",3.3,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","1996","1996",3.6,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","1997","1997",3.6,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","1998","1998",4,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","1999","1999",4.2,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",4.7,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2006","2006",4.9,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",5.8,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",5.7,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",6.6,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",6,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",6.6,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",6.9,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",7,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",6.8,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",7.6,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",7.5,,
-"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",8.1,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","1995","1995",3.3,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","1996","1996",3.6,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","1997","1997",3.6,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","1998","1998",4,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","1999","1999",4.2,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2005","2005",4.7,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2006","2006",4.9,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2007","2007",5.8,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2008","2008",5.7,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2009","2009",6.6,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2010","2010",6,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2011","2011",6.6,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2012","2012",6.9,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2013","2013",7,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2014","2014",6.8,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2015","2015",7.6,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2016","2016",7.5,,
+"FBORADM","Average ticket price (in local currency)","GBR","United Kingdom","2017","2017",8.1,,
 "FBORADM","Average ticket price (in local currency)","USA","United States of America","1995","1995",4.4,,
 "FBORADM","Average ticket price (in local currency)","USA","United States of America","1996","1996",4.4,,
 "FBORADM","Average ticket price (in local currency)","USA","United States of America","1997","1997",4.8,,
@@ -12308,19 +12308,19 @@
 "FBORADM","Average ticket price (in local currency)","CHL","Chile","2015","2015",3251.7,,
 "FBORADM","Average ticket price (in local currency)","CHL","Chile","2016","2016",3281.7,,
 "FBORADM","Average ticket price (in local currency)","CHL","Chile","2017","2017",3209.7,,
-"FBORADM","Average ticket price (in local currency)","CHN","China","2005","2005",12.7,,
-"FBORADM","Average ticket price (in local currency)","CHN","China","2006","2006",14.9,,
-"FBORADM","Average ticket price (in local currency)","CHN","China","2007","2007",16.9,,
-"FBORADM","Average ticket price (in local currency)","CHN","China","2008","2008",20.1,,
-"FBORADM","Average ticket price (in local currency)","CHN","China","2009","2009",23.5,,
-"FBORADM","Average ticket price (in local currency)","CHN","China","2010","2010",35.1,,
-"FBORADM","Average ticket price (in local currency)","CHN","China","2011","2011",35.4,,
-"FBORADM","Average ticket price (in local currency)","CHN","China","2012","2012",36.3,,
-"FBORADM","Average ticket price (in local currency)","CHN","China","2013","2013",35.6,,
-"FBORADM","Average ticket price (in local currency)","CHN","China","2014","2014",35.7,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","CHN","China","2015","2015",35,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","CHN","China","2016","2016",33.3,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","CHN","China","2017","2017",34.5,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2005","2005",12.7,,
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2006","2006",14.9,,
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2007","2007",16.9,,
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2008","2008",20.1,,
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2009","2009",23.5,,
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2010","2010",35.1,,
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2011","2011",35.4,,
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2012","2012",36.3,,
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2013","2013",35.6,,
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2014","2014",35.7,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2015","2015",35,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2016","2016",33.3,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","CHN","People's Republic of China","2017","2017",34.5,"‡","UIS Estimation"
 "FBORADM","Average ticket price (in local currency)","COL","Colombia","2008","2008",6492.8,,
 "FBORADM","Average ticket price (in local currency)","COL","Colombia","2009","2009",7307,,
 "FBORADM","Average ticket price (in local currency)","COL","Colombia","2010","2010",7637.7,,
@@ -12467,16 +12467,16 @@
 "FBORADM","Average ticket price (in local currency)","IDN","Indonesia","2013","2013",2.9,"‡","UIS Estimation"
 "FBORADM","Average ticket price (in local currency)","IDN","Indonesia","2014","2014",2.8,"‡","UIS Estimation"
 "FBORADM","Average ticket price (in local currency)","IDN","Indonesia","2016","2016",2.6,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","IRN","Iran (Islamic Republic of)","2007","2007",10928.5,,
-"FBORADM","Average ticket price (in local currency)","IRN","Iran (Islamic Republic of)","2008","2008",13313.9,,
-"FBORADM","Average ticket price (in local currency)","IRN","Iran (Islamic Republic of)","2009","2009",16644.8,,
-"FBORADM","Average ticket price (in local currency)","IRN","Iran (Islamic Republic of)","2010","2010",21379,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","IRN","Iran (Islamic Republic of)","2011","2011",30535.6,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","IRN","Iran (Islamic Republic of)","2013","2013",33712.6,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","IRN","Iran (Islamic Republic of)","2014","2014",36986.7,,
-"FBORADM","Average ticket price (in local currency)","IRN","Iran (Islamic Republic of)","2015","2015",51303.5,,
-"FBORADM","Average ticket price (in local currency)","IRN","Iran (Islamic Republic of)","2016","2016",66857.1,,
-"FBORADM","Average ticket price (in local currency)","IRN","Iran (Islamic Republic of)","2017","2017",78866,,
+"FBORADM","Average ticket price (in local currency)","IRN","Iran","2007","2007",10928.5,,
+"FBORADM","Average ticket price (in local currency)","IRN","Iran","2008","2008",13313.9,,
+"FBORADM","Average ticket price (in local currency)","IRN","Iran","2009","2009",16644.8,,
+"FBORADM","Average ticket price (in local currency)","IRN","Iran","2010","2010",21379,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","IRN","Iran","2011","2011",30535.6,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","IRN","Iran","2013","2013",33712.6,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","IRN","Iran","2014","2014",36986.7,,
+"FBORADM","Average ticket price (in local currency)","IRN","Iran","2015","2015",51303.5,,
+"FBORADM","Average ticket price (in local currency)","IRN","Iran","2016","2016",66857.1,,
+"FBORADM","Average ticket price (in local currency)","IRN","Iran","2017","2017",78866,,
 "FBORADM","Average ticket price (in local currency)","ISR","Israel","2009","2009",9.4,"‡","UIS Estimation"
 "FBORADM","Average ticket price (in local currency)","ISR","Israel","2010","2010",8.5,"‡","UIS Estimation"
 "FBORADM","Average ticket price (in local currency)","ISR","Israel","2011","2011",8.3,"‡","UIS Estimation"
@@ -12670,19 +12670,19 @@
 "FBORADM","Average ticket price (in local currency)","ROU","Romania","2015","2015",18.5,,
 "FBORADM","Average ticket price (in local currency)","ROU","Romania","2016","2016",18.5,,
 "FBORADM","Average ticket price (in local currency)","ROU","Romania","2017","2017",19.2,,
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2005","2005",110.7,,
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2006","2006",121,,
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2007","2007",133.4,,
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2008","2008",168.4,,
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2009","2009",169.9,,
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2010","2010",197.4,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2011","2011",213.6,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2012","2012",234.1,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2013","2013",240.3,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2014","2014",246.1,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2015","2015",253.4,"‡","UIS Estimation"
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2016","2016",252.1,,
-"FBORADM","Average ticket price (in local currency)","RUS","Russian Federation","2017","2017",251,,
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2005","2005",110.7,,
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2006","2006",121,,
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2007","2007",133.4,,
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2008","2008",168.4,,
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2009","2009",169.9,,
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2010","2010",197.4,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2011","2011",213.6,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2012","2012",234.1,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2013","2013",240.3,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2014","2014",246.1,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2015","2015",253.4,"‡","UIS Estimation"
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2016","2016",252.1,,
+"FBORADM","Average ticket price (in local currency)","RUS","Russia","2017","2017",251,,
 "FBORADM","Average ticket price (in local currency)","SMR","San Marino","1995","1995",4960.8,,
 "FBORADM","Average ticket price (in local currency)","SMR","San Marino","1996","1996",5220.9,,
 "FBORADM","Average ticket price (in local currency)","SMR","San Marino","1997","1997",6157.8,,
@@ -13256,24 +13256,24 @@
 "FEXP_PC","Cinema expenditure per capita (in local currency)","TUR","Turkey","2015","2015",9.7,"‡","UIS Estimation"
 "FEXP_PC","Cinema expenditure per capita (in local currency)","TUR","Turkey","2016","2016",9.7,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","TUR","Turkey","2017","2017",11.9,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","1995","1995",7.4,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","1996","1996",8.5,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","1997","1997",9.7,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","1998","1998",10.3,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","1999","1999",11.1,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2005","2005",14.2,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2006","2006",14,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2007","2007",17.2,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2008","2008",17.1,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2009","2009",20.5,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2010","2010",18.3,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2011","2011",20.2,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2012","2012",20.9,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2013","2013",20.3,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2014","2014",18.8,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2015","2015",22.5,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2016","2016",21.6,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom of Great Britain and Northern Ireland","2017","2017",23.4,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","1995","1995",7.4,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","1996","1996",8.5,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","1997","1997",9.7,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","1998","1998",10.3,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","1999","1999",11.1,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2005","2005",14.2,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2006","2006",14,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2007","2007",17.2,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2008","2008",17.1,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2009","2009",20.5,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2010","2010",18.3,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2011","2011",20.2,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2012","2012",20.9,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2013","2013",20.3,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2014","2014",18.8,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2015","2015",22.5,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2016","2016",21.6,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","GBR","United Kingdom","2017","2017",23.4,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","USA","United States of America","1995","1995",23,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","USA","United States of America","1996","1996",24.5,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","USA","United States of America","1997","1997",25.9,,
@@ -13397,20 +13397,20 @@
 "FEXP_PC","Cinema expenditure per capita (in local currency)","CHL","Chile","2015","2015",4962.8,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","CHL","Chile","2016","2016",5543.3,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","CHL","Chile","2017","2017",5390.6,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","1998","1998",0.2,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2005","2005",1.6,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2006","2006",2.1,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2007","2007",2.7,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2008","2008",3.4,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2009","2009",5,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2010","2010",8.2,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2011","2011",10.5,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2012","2012",13.6,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2013","2013",17.3,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2014","2014",23.4,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2015","2015",34.2,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2016","2016",35.4,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","China","2017","2017",43.1,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","1998","1998",0.2,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2005","2005",1.6,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2006","2006",2.1,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2007","2007",2.7,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2008","2008",3.4,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2009","2009",5,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2010","2010",8.2,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2011","2011",10.5,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2012","2012",13.6,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2013","2013",17.3,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2014","2014",23.4,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2015","2015",34.2,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2016","2016",35.4,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","CHN","People's Republic of China","2017","2017",43.1,"‡","UIS Estimation"
 "FEXP_PC","Cinema expenditure per capita (in local currency)","COL","Colombia","2008","2008",3558.2,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","COL","Colombia","2009","2009",4939.8,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","COL","Colombia","2010","2010",6247.3,,
@@ -13557,16 +13557,16 @@
 "FEXP_PC","Cinema expenditure per capita (in local currency)","IDN","Indonesia","2013","2013",0.5,"‡","UIS Estimation"
 "FEXP_PC","Cinema expenditure per capita (in local currency)","IDN","Indonesia","2014","2014",1.1,"‡","UIS Estimation"
 "FEXP_PC","Cinema expenditure per capita (in local currency)","IDN","Indonesia","2016","2016",1,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran (Islamic Republic of)","2007","2007",2420.3,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran (Islamic Republic of)","2008","2008",3078.7,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran (Islamic Republic of)","2009","2009",4570.9,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran (Islamic Republic of)","2010","2010",3356.9,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran (Islamic Republic of)","2011","2011",4343.9,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran (Islamic Republic of)","2013","2013",3137.3,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran (Islamic Republic of)","2014","2014",6926.5,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran (Islamic Republic of)","2015","2015",7682,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran (Islamic Republic of)","2016","2016",19317.1,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran (Islamic Republic of)","2017","2017",20775.4,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran","2007","2007",2420.3,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran","2008","2008",3078.7,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran","2009","2009",4570.9,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran","2010","2010",3356.9,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran","2011","2011",4343.9,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran","2013","2013",3137.3,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran","2014","2014",6926.5,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran","2015","2015",7682,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran","2016","2016",19317.1,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","IRN","Iran","2017","2017",20775.4,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","ISR","Israel","2009","2009",15.9,"‡","UIS Estimation"
 "FEXP_PC","Cinema expenditure per capita (in local currency)","ISR","Israel","2010","2010",16.8,"‡","UIS Estimation"
 "FEXP_PC","Cinema expenditure per capita (in local currency)","ISR","Israel","2011","2011",15.7,"‡","UIS Estimation"
@@ -13775,19 +13775,19 @@
 "FEXP_PC","Cinema expenditure per capita (in local currency)","ROU","Romania","2015","2015",11.4,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","ROU","Romania","2016","2016",13.4,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","ROU","Romania","2017","2017",14.9,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2005","2005",69.1,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2006","2006",83.4,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2007","2007",105.6,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2008","2008",150.4,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2009","2009",170.3,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2010","2010",234.2,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2011","2011",249.3,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2012","2012",287.6,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2013","2013",326.5,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2014","2014",332.9,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2015","2015",339.4,"‡","UIS Estimation"
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2016","2016",375.4,,
-"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russian Federation","2017","2017",412.7,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2005","2005",69.1,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2006","2006",83.4,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2007","2007",105.6,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2008","2008",150.4,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2009","2009",170.3,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2010","2010",234.2,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2011","2011",249.3,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2012","2012",287.6,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2013","2013",326.5,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2014","2014",332.9,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2015","2015",339.4,"‡","UIS Estimation"
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2016","2016",375.4,,
+"FEXP_PC","Cinema expenditure per capita (in local currency)","RUS","Russia","2017","2017",412.7,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","SGP","Singapore","2005","2005",28.6,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","SGP","Singapore","2006","2006",29.9,,
 "FEXP_PC","Cinema expenditure per capita (in local currency)","SGP","Singapore","2008","2008",33.9,,
@@ -14059,9 +14059,9 @@
 "220162","Number of documentary feature films","PRI","Puerto Rico","2013","2013",,"n","Magnitude nil or negligible"
 "220162","Number of documentary feature films","PRI","Puerto Rico","2014","2014",,"n","Magnitude nil or negligible"
 "220162","Number of documentary feature films","PRI","Puerto Rico","2015","2015",,"n","Magnitude nil or negligible"
-"220162","Number of documentary feature films","RUS","Russian Federation","2012","2012",2,"‡","UIS Estimation"
-"220162","Number of documentary feature films","RUS","Russian Federation","2016","2016",8,"‡","UIS Estimation"
-"220162","Number of documentary feature films","RUS","Russian Federation","2017","2017",19,"‡","UIS Estimation"
+"220162","Number of documentary feature films","RUS","Russia","2012","2012",2,"‡","UIS Estimation"
+"220162","Number of documentary feature films","RUS","Russia","2016","2016",8,"‡","UIS Estimation"
+"220162","Number of documentary feature films","RUS","Russia","2017","2017",19,"‡","UIS Estimation"
 "220162","Number of documentary feature films","SEN","Senegal","2011","2011",1,,
 "220162","Number of documentary feature films","SEN","Senegal","2012","2012",2,,
 "220162","Number of documentary feature films","SEN","Senegal","2013","2013",2,,
@@ -14099,12 +14099,12 @@
 "220035","Total number of distribution companies","GAB","Gabon","2013","2013",,"n","Magnitude nil or negligible"
 "220035","Total number of distribution companies","GAB","Gabon","2016","2016",7,,
 "220035","Total number of distribution companies","GAB","Gabon","2017","2017",7,,
-"220035","Total number of distribution companies","IRN","Iran (Islamic Republic of)","2010","2010",81,,
-"220035","Total number of distribution companies","IRN","Iran (Islamic Republic of)","2011","2011",94,,
-"220035","Total number of distribution companies","IRN","Iran (Islamic Republic of)","2014","2014",30,,
-"220035","Total number of distribution companies","IRN","Iran (Islamic Republic of)","2015","2015",25,,
-"220035","Total number of distribution companies","IRN","Iran (Islamic Republic of)","2016","2016",28,,
-"220035","Total number of distribution companies","IRN","Iran (Islamic Republic of)","2017","2017",26,,
+"220035","Total number of distribution companies","IRN","Iran","2010","2010",81,,
+"220035","Total number of distribution companies","IRN","Iran","2011","2011",94,,
+"220035","Total number of distribution companies","IRN","Iran","2014","2014",30,,
+"220035","Total number of distribution companies","IRN","Iran","2015","2015",25,,
+"220035","Total number of distribution companies","IRN","Iran","2016","2016",28,,
+"220035","Total number of distribution companies","IRN","Iran","2017","2017",26,,
 "220035","Total number of distribution companies","KGZ","Kyrgyzstan","2010","2010",1,,
 "220035","Total number of distribution companies","KGZ","Kyrgyzstan","2011","2011",1,,
 "220035","Total number of distribution companies","KGZ","Kyrgyzstan","2012","2012",3,,
@@ -14889,10 +14889,10 @@
 "220160","Number of fictional feature films","COK","Cook Islands","2015","2015",,"n","Magnitude nil or negligible"
 "220160","Number of fictional feature films","ECU","Ecuador","2014","2014",16,,
 "220160","Number of fictional feature films","ECU","Ecuador","2015","2015",20,,
-"220160","Number of fictional feature films","IRN","Iran (Islamic Republic of)","2014","2014",82,,
-"220160","Number of fictional feature films","IRN","Iran (Islamic Republic of)","2015","2015",85,,
-"220160","Number of fictional feature films","IRN","Iran (Islamic Republic of)","2016","2016",88,,
-"220160","Number of fictional feature films","IRN","Iran (Islamic Republic of)","2017","2017",92,,
+"220160","Number of fictional feature films","IRN","Iran","2014","2014",82,,
+"220160","Number of fictional feature films","IRN","Iran","2015","2015",85,,
+"220160","Number of fictional feature films","IRN","Iran","2016","2016",88,,
+"220160","Number of fictional feature films","IRN","Iran","2017","2017",92,,
 "220160","Number of fictional feature films","MDG","Madagascar","2014","2014",51,,
 "220160","Number of fictional feature films","MDG","Madagascar","2015","2015",36,,
 "220160","Number of fictional feature films","MDG","Madagascar","2016","2016",13,,
@@ -14926,10 +14926,10 @@
 "220161","Number of animated feature films","COK","Cook Islands","2015","2015",,"n","Magnitude nil or negligible"
 "220161","Number of animated feature films","ECU","Ecuador","2014","2014",,"n","Magnitude nil or negligible"
 "220161","Number of animated feature films","ECU","Ecuador","2015","2015",,"n","Magnitude nil or negligible"
-"220161","Number of animated feature films","IRN","Iran (Islamic Republic of)","2014","2014",,"n","Magnitude nil or negligible"
-"220161","Number of animated feature films","IRN","Iran (Islamic Republic of)","2015","2015",,"n","Magnitude nil or negligible"
-"220161","Number of animated feature films","IRN","Iran (Islamic Republic of)","2016","2016",2,,
-"220161","Number of animated feature films","IRN","Iran (Islamic Republic of)","2017","2017",5,,
+"220161","Number of animated feature films","IRN","Iran","2014","2014",,"n","Magnitude nil or negligible"
+"220161","Number of animated feature films","IRN","Iran","2015","2015",,"n","Magnitude nil or negligible"
+"220161","Number of animated feature films","IRN","Iran","2016","2016",2,,
+"220161","Number of animated feature films","IRN","Iran","2017","2017",5,,
 "220161","Number of animated feature films","MDG","Madagascar","2014","2014",,"n","Magnitude nil or negligible"
 "220161","Number of animated feature films","MDG","Madagascar","2015","2015",,"n","Magnitude nil or negligible"
 "220161","Number of animated feature films","MDG","Madagascar","2016","2016",1,,
@@ -14963,10 +14963,10 @@
 "220162","Number of documentary feature films","COK","Cook Islands","2015","2015",,"n","Magnitude nil or negligible"
 "220162","Number of documentary feature films","ECU","Ecuador","2014","2014",11,,
 "220162","Number of documentary feature films","ECU","Ecuador","2015","2015",3,,
-"220162","Number of documentary feature films","IRN","Iran (Islamic Republic of)","2014","2014",,"n","Magnitude nil or negligible"
-"220162","Number of documentary feature films","IRN","Iran (Islamic Republic of)","2015","2015",,"n","Magnitude nil or negligible"
-"220162","Number of documentary feature films","IRN","Iran (Islamic Republic of)","2016","2016",,"n","Magnitude nil or negligible"
-"220162","Number of documentary feature films","IRN","Iran (Islamic Republic of)","2017","2017",1,,
+"220162","Number of documentary feature films","IRN","Iran","2014","2014",,"n","Magnitude nil or negligible"
+"220162","Number of documentary feature films","IRN","Iran","2015","2015",,"n","Magnitude nil or negligible"
+"220162","Number of documentary feature films","IRN","Iran","2016","2016",,"n","Magnitude nil or negligible"
+"220162","Number of documentary feature films","IRN","Iran","2017","2017",1,,
 "220162","Number of documentary feature films","MDG","Madagascar","2014","2014",,"n","Magnitude nil or negligible"
 "220162","Number of documentary feature films","MDG","Madagascar","2015","2015",,"n","Magnitude nil or negligible"
 "220162","Number of documentary feature films","MDG","Madagascar","2016","2016",,"n","Magnitude nil or negligible"
@@ -15068,7 +15068,7 @@
 "FCIO","Total number of cinema sites (indoor and other facilities)","GEO","Georgia","2015","2015",5,,
 "FCIO","Total number of cinema sites (indoor and other facilities)","GEO","Georgia","2016","2016",5,,
 "FCIO","Total number of cinema sites (indoor and other facilities)","GEO","Georgia","2017","2017",5,,
-"FCIO","Total number of cinema sites (indoor and other facilities)","IRN","Iran (Islamic Republic of)","2015","2015",180,,
+"FCIO","Total number of cinema sites (indoor and other facilities)","IRN","Iran","2015","2015",180,,
 "FCIO","Total number of cinema sites (indoor and other facilities)","MKD","North Macedonia","2014","2014",24,,
 "FCIO","Total number of cinema sites (indoor and other facilities)","MKD","North Macedonia","2015","2015",24,,
 "FCIO","Total number of cinema sites (indoor and other facilities)","MHL","Marshall Islands","2014","2014",2,,
@@ -15146,10 +15146,10 @@
 "220059","Total number of all feature films exhibited","KHM","Cambodia","2017","2017",178,,
 "220059","Total number of all feature films exhibited","ECU","Ecuador","2014","2014",303,,
 "220059","Total number of all feature films exhibited","ECU","Ecuador","2015","2015",316,,
-"220059","Total number of all feature films exhibited","IRN","Iran (Islamic Republic of)","2014","2014",163,,
-"220059","Total number of all feature films exhibited","IRN","Iran (Islamic Republic of)","2015","2015",188,,
-"220059","Total number of all feature films exhibited","IRN","Iran (Islamic Republic of)","2016","2016",198,,
-"220059","Total number of all feature films exhibited","IRN","Iran (Islamic Republic of)","2017","2017",210,,
+"220059","Total number of all feature films exhibited","IRN","Iran","2014","2014",163,,
+"220059","Total number of all feature films exhibited","IRN","Iran","2015","2015",188,,
+"220059","Total number of all feature films exhibited","IRN","Iran","2016","2016",198,,
+"220059","Total number of all feature films exhibited","IRN","Iran","2017","2017",210,,
 "220059","Total number of all feature films exhibited","MHL","Marshall Islands","2014","2014",,"n","Magnitude nil or negligible"
 "220059","Total number of all feature films exhibited","MHL","Marshall Islands","2015","2015",1,,
 "220059","Total number of all feature films exhibited","MHL","Marshall Islands","2016","2016",1,,
