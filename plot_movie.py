@@ -16,8 +16,8 @@ COUNTRY_MOVIE_FILE = "./asset/unesco_movie_producing.csv"
 SHAPE_FILE = "./asset/natural_earth/ne_10m_admin_0_countries"  ## w/o extension
 
 REGION = 'world'
-INDICATOR = 'Total number of national feature films produced'
-# INDICATOR = 'Indoor cinemas per capita (per 1,000,000 inhabitants)'
+# INDICATOR = 'Total number of national feature films produced'
+INDICATOR = 'Indoor cinemas per capita (per 1,000,000 inhabitants)'
 YEAR = 2016
 TITLE = "{} in {}".format(INDICATOR, YEAR)
 TEXT_OFFSET = 0
@@ -72,7 +72,7 @@ if __name__ == '__main__':
     ## Figure
     fig = plt.figure(figsize=FIGURE_SIZE)
     ax = fig.add_subplot(111, frame_on=False)
-    fig.suptitle(TITLE, fontsize=10, y=.90)
+    fig.suptitle(TITLE, fontsize=17, y=.91)
 
     # Control the position of the square. Give the coordinate of 2 corners
     if REGION == 'world':
