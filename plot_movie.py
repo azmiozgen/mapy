@@ -10,10 +10,10 @@ from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon
 from mpl_toolkits.basemap import Basemap
 
-COUNTRY_COORDS_FILE = "./asset/world_country_lon_lat.csv"
-# COUNTRY_COORDS_FILE = "./asset/eu_country_lon_lat_extended.csv"
-COUNTRY_MOVIE_FILE = "./asset/unesco_movie_producing.csv"
-SHAPE_FILE = "./asset/natural_earth/ne_10m_admin_0_countries"  ## w/o extension
+COUNTRY_COORDS_FILE = "./data/world_country_lon_lat.csv"
+# COUNTRY_COORDS_FILE = "./data/eu_country_lon_lat_extended.csv"
+COUNTRY_MOVIE_FILE = "./data/unesco_movie_producing.csv"
+SHAPE_FILE = "./data/natural_earth/ne_10m_admin_0_countries"  ## w/o extension
 
 REGION = 'world'
 # INDICATOR = 'Total number of national feature films produced'

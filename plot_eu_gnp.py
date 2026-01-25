@@ -1,5 +1,3 @@
-import os
-
 import numpy as np
 
 import matplotlib as mpl
@@ -10,9 +8,9 @@ from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon
 from mpl_toolkits.basemap import Basemap
 
-COUNTRY_COORDS_FILE = "./asset/eu_country_lon_lat_extended.csv"
-COUNTRY_GNP_FILE = "./asset/worldbank_gnp.csv"
-SHAPE_FILE = "./asset/natural_earth/ne_10m_admin_0_countries"  ## w/o extension
+COUNTRY_COORDS_FILE = "./data/eu_country_lon_lat_extended.csv"
+COUNTRY_GNP_FILE = "./data/worldbank_gnp.csv"
+SHAPE_FILE = "./data/natural_earth/ne_10m_admin_0_countries"  ## w/o extension
 
 YEAR = '1995'
 TITLE = "Europe GNP (Gross National Product) in {} (US Dollars)".format(YEAR)
@@ -23,7 +21,7 @@ GNP_VALUE_TEXT_FONTSIZE = 10
 RESOLUTION = 'c'  ## c, l, i, h, f
 FIGURE_SIZE = (25, 20)
 
-OUTPUT_FILE = "./output/eu_gnp{}_map.png".format(YEAR)
+OUTPUT_FILE = "./data/output/eu_gnp{}_map.png".format(YEAR)
 
 if __name__ == '__main__':
 
@@ -100,7 +98,8 @@ if __name__ == '__main__':
             continue
         
         color = scheme[df[df['name'] == ne_name]['bin']]
-        patches = [Polygon(np.array(shape), True)]
+        # patches = [Polygon(np.array(shape), True)]
+        patches = [Polygon(np.array(shape))]
         pc = PatchCollection(patches)
         pc.set_facecolor(color)
         ax.add_collection(pc)

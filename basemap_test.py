@@ -8,7 +8,7 @@ import pandas as pd
 from config import Continent
 
 TEXT_OFFSET = 10000
-COUNTRY_COORDS_FILE = "./asset/eu_country_lon_lat.csv"
+COUNTRY_COORDS_FILE = "./data/eu_country_lon_lat.csv"
 
 if __name__ == '__main__':
 
