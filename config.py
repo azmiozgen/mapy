@@ -255,7 +255,7 @@ european_city_coords = {
     'Madrid, Spain': (40.4168, -3.7038),
     'Barcelona, Spain': (41.3851, 2.1734),
     'Valencia, Spain': (39.4699, -0.3763),
-    'Seville (Sevilla), Spain': (37.3891, -5.9845),
+    'Seville, Spain': (37.3891, -5.9845),
     'Bilbao, Spain': (43.2630, -2.9350),
     'Malaga, Spain': (36.7213, -4.4214),
     'Alicante, Spain': (38.3452, -0.4810),
@@ -329,5 +329,5 @@ european_city_coords = {
     'Mersin, Turkey': (36.8121, 34.6415),
 
     # Kosovo
-    'Pristina, Kosovo (Disputed Territory)': (42.6629, 21.1655),
+    'Pristina, Kosovo': (42.6629, 21.1655),
 }
