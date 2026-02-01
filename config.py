@@ -331,3 +331,67 @@ european_city_coords = {
     # Kosovo
     'Pristina, Kosovo': (42.6629, 21.1655),
 }
+
+# Famous European cities for analysis
+famous_european_cities = [
+    'Aalborg', 'Aarhus', 'Alicante', 'Amsterdam', 'Ankara', 'Athens',
+    'Barcelona', 'Bari', 'Belfast', 'Belgrade', 'Bergen', 'Bern', 'Berlin', 'Bilbao', 'Birmingham', 'Bologna',
+    'Bordeaux', 'Bratislava', 'Bremen', 'Bristol', 'Brno', 'Brussels', 'Bucharest', 'Budapest',
+    'Cagliari', 'Cambridge', 'Cardiff', 'Catania', 'Chisinau', 'Cluj-Napoca', 'Cologne', 'Copenhagen', 'Cork',
+    'Debrecen', 'Dnipro', 'Dortmund', 'Dresden', 'Dublin',
+    'Edinburgh', 'Espoo',
+    'Florence', 'Frankfurt',
+    'Galway', 'Gdansk', 'Geneva', 'Glasgow', 'Gothenburg', 'Granada', 'Graz',
+    'Hamburg', 'Hanover', 'Helsinki', 'Heraklion',
+    'Istanbul', 'Izmir',
+    'Katovice', 'Kaunas', 'Kharkiv', 'Kosice', 'Kyiv', 'Krakow',
+    'Leipzig', 'Lille', 'Lisbon', 'Liverpool', 'London', 'Ljubljana', 'Luxembourg', 'Lviv', 'Lyon',
+    'Madrid', 'Malaga', 'Malmo', 'Manchester', 'Marseille', 'Milan', 'Minsk', 'Montpellier', 'Moscow', 'Munich',
+    'Naples', 'Nice', 'Nicosia', 'Nuremberg',
+    'Odense', 'Odessa', 'Oslo', 'Oviedo',
+    'Padova', 'Palma de Mallorca', 'Paris', 'Plovdiv', 'Podgorica', 'Porto', 'Poznan', 'Prague', 'Pristina',
+    'Reykjavik', 'Riga', 'Rome', 'Rotterdam',
+    'Sarajevo', 'Skopje', 'Seville', 'Sofia', 'Saint Petersburg', 'Stavanger', 'Stockholm', 'Strasbourg',
+    'Tallinn', 'Tartu', 'Thessaloniki', 'Tirana', 'Toulouse', 'Trondheim', 'Turin', 'Turku',
+    'Valencia', 'Valletta', 'Varna', 'Vienna', 'Vilnius',
+    'Warsaw', 'Wroclaw',
+    'Uppsala',
+    'Zagreb', 'Zurich'
+]
+
+# City populations (approximate 2024/2025)
+# Sources: Wikipedia, national statistical offices, city government data
+european_city_populations = {
+    'Aalborg': 131000, 'Aarhus': 285000, 'Alicante': 330000, 'Amsterdam': 872000,
+    'Ankara': 4700000, 'Athens': 3155000,
+    'Barcelona': 1630000, 'Bari': 277000, 'Belgrade': 1239000, 'Bergen': 289000,
+    'Bern': 134000, 'Berlin': 3645000, 'Bilbao': 345000, 'Birmingham': 1141000,
+    'Bologna': 390000, 'Bordeaux': 250000, 'Bratislava': 440000, 'Bremen': 570000,
+    'Bristol': 465000, 'Brno': 382000, 'Brussels': 1220000, 'Bucharest': 1830000,
+    'Budapest': 1752000, 'Cagliari': 154000, 'Cardiff': 365000, 'Catania': 312000,
+    'Chisinau': 635000, 'Cluj-Napoca': 320000, 'Cologne': 1087000, 'Copenhagen': 805000,
+    'Cork': 128000, 'Debrecen': 202000, 'Dnipro': 969000, 'Dortmund': 587000,
+    'Dresden': 556000, 'Dublin': 1256000, 'Edinburgh': 530000, 'Espoo': 290000,
+    'Florence': 382000, 'Frankfurt': 759000, 'Galway': 79000, 'Gdansk': 470000,
+    'Geneva': 203000, 'Glasgow': 633000, 'Gothenburg': 584000, 'Granada': 232000,
+    'Graz': 331000, 'Hamburg': 1852000, 'Hanover': 537000, 'Helsinki': 656000,
+    'Heraklion': 140000, 'Istanbul': 15029000, 'Izmir': 2907000, 'Katovice': 295000,
+    'Kaunas': 383000, 'Kharkiv': 1034000, 'Kosice': 242000, 'Kyiv': 2988000,
+    'Krakow': 804000, 'Leipzig': 597000, 'Lille': 232000, 'Lisbon': 546000,
+    'Liverpool': 498000, 'London': 9002000, 'Ljubljana': 295000, 'Luxembourg': 128000,
+    'Lviv': 717000, 'Lyon': 516000, 'Madrid': 3280000, 'Malaga': 580000,
+    'Malmo': 345000, 'Manchester': 547000, 'Marseille': 869000, 'Milan': 1378000,
+    'Minsk': 1998000, 'Montpellier': 285000, 'Moscow': 11650000, 'Munich': 1484000,
+    'Naples': 906000, 'Nice': 340000, 'Nicosia': 286000, 'Nuremberg': 518000,
+    'Odense': 182000, 'Odessa': 1010000, 'Oslo': 715000, 'Oviedo': 225000,
+    'Padova': 210000, 'Palma de Mallorca': 410000, 'Paris': 2165000, 'Plovdiv': 347000,
+    'Podgorica': 150000, 'Porto': 1733000, 'Poznan': 540000, 'Prague': 1320000,
+    'Pristina': 160000, 'Reykjavik': 130000, 'Riga': 633000, 'Rome': 2751000,
+    'Rotterdam': 655000, 'Sarajevo': 369000, 'Skopje': 545000, 'Seville': 1528000,
+    'Sofia': 1242000, 'Saint Petersburg': 5429000, 'Stavanger': 144000,
+    'Stockholm': 975000, 'Strasbourg': 280000, 'Tallinn': 438000, 'Tartu': 138000,
+    'Thessaloniki': 325000, 'Tirana': 289000, 'Toulouse': 480000, 'Trondheim': 211000,
+    'Turin': 870000, 'Turku': 196000, 'Valencia': 1604000, 'Valletta': 6000,
+    'Varna': 312000, 'Vienna': 1920000, 'Vilnius': 580000, 'Warsaw': 874000,
+    'Wroclaw': 674000, 'Uppsala': 230000, 'Zagreb': 769000, 'Zurich': 440000,
+}

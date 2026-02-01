@@ -1,6 +1,7 @@
 basemap
 folium
 geopy
+OSMPythonTools
 pandas
 polars
 tqdm
