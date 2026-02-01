@@ -395,3 +395,90 @@ european_city_populations = {
     'Varna': 312000, 'Vienna': 1920000, 'Vilnius': 580000, 'Warsaw': 874000,
     'Wroclaw': 674000, 'Uppsala': 230000, 'Zagreb': 769000, 'Zurich': 440000,
 }
+
+# Country to continent mapping
+CONTINENT_MAPPING = {
+    'Europe': {
+        'countries': [
+            'United Kingdom', 'France', 'Germany', 'Italy', 'Spain', 'Netherlands',
+            'Belgium', 'Switzerland', 'Austria', 'Sweden', 'Norway', 'Denmark',
+            'Finland', 'Poland', 'Czech Republic', 'Hungary', 'Romania', 'Bulgaria',
+            'Greece', 'Portugal', 'Ireland', 'Iceland', 'Luxembourg', 'Slovenia',
+            'Croatia', 'Serbia', 'Slovakia', 'Estonia', 'Latvia', 'Lithuania',
+            'Bosnia and Herzegovina', 'Albania', 'Cyprus', 'Malta', 'Montenegro',
+            'Ukraine', 'Belarus', 'Russia', 'Turkey', 'Kosovo', 'North Macedonia'
+        ]
+    },
+    'Asia': {
+        'countries': [
+            'China', 'Japan', 'South Korea', 'India', 'Thailand', 'Vietnam',
+            'Indonesia', 'Philippines', 'Malaysia', 'Singapore', 'Hong Kong',
+            'Taiwan', 'Pakistan', 'Bangladesh', 'Sri Lanka', 'Nepal', 'Myanmar',
+            'Cambodia', 'Laos', 'Mongolia', 'Kazakhstan', 'Uzbekistan',
+            'Turkmenistan', 'Tajikistan', 'Kyrgyzstan', 'Afghanistan', 'Iran',
+            'Iraq', 'Saudi Arabia', 'United Arab Emirates', 'Qatar', 'Kuwait',
+            'Bahrain', 'Oman', 'Yemen', 'Jordan', 'Lebanon', 'Syria', 'Israel',
+            'Palestine'
+        ]
+    },
+    'North America': {
+        'countries': [
+            'United States of America', 'Canada', 'Mexico'
+        ]
+    },
+    'South America': {
+        'countries': [
+            'Brazil', 'Argentina', 'Colombia', 'Peru', 'Chile', 'Venezuela',
+            'Ecuador', 'Bolivia', 'Paraguay', 'Uruguay', 'Guyana', 'Suriname'
+        ]
+    },
+    'Africa': {
+        'countries': [
+            'Nigeria', 'Egypt', 'South Africa', 'Kenya', 'Morocco', 'Ethiopia',
+            'Ghana', 'Tanzania', 'Uganda', 'Algeria', 'Sudan', 'Tunisia',
+            'Senegal', 'Cameroon', 'Angola', 'Ivory Coast', 'Burkina Faso',
+            'Niger', 'Mali', 'Zambia', 'Zimbabwe', 'Botswana', 'Namibia',
+            'Lesotho', 'Mauritius', 'Mozambique', 'Madagascar'
+        ]
+    },
+    'Oceania': {
+        'countries': [
+            'Australia', 'New Zealand', 'Fiji', 'Samoa', 'Vanuatu', 'Solomon Islands'
+        ]
+    }
+}
+
+# Country population data (2024 estimates, in millions)
+COUNTRY_POPULATION_DATA = {
+    'United Kingdom': 67.0, 'France': 67.6, 'Germany': 83.4, 'Italy': 59.1,
+    'Spain': 48.1, 'Netherlands': 17.7, 'Belgium': 11.6, 'Switzerland': 8.7,
+    'Austria': 9.4, 'Sweden': 10.5, 'Norway': 5.5, 'Denmark': 5.8,
+    'Finland': 5.6, 'Poland': 37.7, 'Czech Republic': 10.5, 'Hungary': 9.7,
+    'Romania': 19.0, 'Bulgaria': 6.8, 'Greece': 10.6, 'Portugal': 10.3,
+    'Ireland': 5.1, 'Iceland': 0.39, 'Luxembourg': 0.66, 'Slovenia': 2.1,
+    'Croatia': 3.9, 'Serbia': 6.7, 'Slovakia': 5.5, 'Estonia': 1.4,
+    'Latvia': 1.9, 'Lithuania': 2.8, 'Bosnia and Herzegovina': 3.2,
+    'Albania': 2.9, 'Cyprus': 1.2, 'Malta': 0.54, 'Montenegro': 0.62,
+    'Ukraine': 36.0, 'Belarus': 9.4, 'Russia': 146.0, 'Turkey': 87.0,
+    'United States of America': 338.3, 'Canada': 38.9, 'Mexico': 130.3,
+    'China': 1417.0, 'Japan': 124.0, 'South Korea': 51.6, 'India': 1428.0,
+    'Thailand': 71.8, 'Vietnam': 98.2, 'Indonesia': 277.5, 'Philippines': 119.1,
+    'Malaysia': 34.2, 'Singapore': 5.9, 'Hong Kong': 7.4, 'Taiwan': 23.9,
+    'Pakistan': 240.5, 'Bangladesh': 170.4, 'Sri Lanka': 22.2, 'Nepal': 30.5,
+    'Myanmar': 54.8, 'Cambodia': 17.3, 'Laos': 7.5, 'Mongolia': 3.4,
+    'Iran': 91.5, 'Iraq': 43.5, 'Saudi Arabia': 34.8, 'United Arab Emirates': 9.9,
+    'Qatar': 2.9, 'Kuwait': 4.4, 'Bahrain': 1.7, 'Oman': 5.1, 'Yemen': 33.6,
+    'Jordan': 10.2, 'Lebanon': 5.5, 'Syria': 24.7, 'Israel': 9.5, 'Palestine': 5.2,
+    'Brazil': 216.4, 'Argentina': 46.2, 'Colombia': 52.1, 'Peru': 34.4,
+    'Chile': 20.0, 'Venezuela': 28.3, 'Ecuador': 18.0, 'Bolivia': 12.5,
+    'Paraguay': 6.8, 'Uruguay': 3.4, 'Guyana': 0.81, 'Suriname': 0.61,
+    'Nigeria': 223.8, 'Egypt': 106.4, 'South Africa': 58.8, 'Kenya': 54.0,
+    'Morocco': 37.3, 'Ethiopia': 120.9, 'Ghana': 35.5, 'Tanzania': 61.5,
+    'Uganda': 48.3, 'Algeria': 44.9, 'Sudan': 46.9, 'Tunisia': 12.6,
+    'Senegal': 17.6, 'Cameroon': 28.2, 'Angola': 36.1, 'Ivory Coast': 27.2,
+    'Burkina Faso': 22.6, 'Niger': 25.9, 'Mali': 21.8, 'Zambia': 21.6,
+    'Zimbabwe': 15.6, 'Botswana': 2.6, 'Namibia': 2.7, 'Lesotho': 2.3,
+    'Mauritius': 1.3, 'Mozambique': 33.9, 'Madagascar': 29.9,
+    'Australia': 26.5, 'New Zealand': 5.2, 'Fiji': 0.90, 'Samoa': 0.20,
+    'Vanuatu': 0.31, 'Solomon Islands': 0.70
+}
