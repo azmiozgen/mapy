@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Horror Jump Scares</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,800;0,900;1,700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<style>
+  :root {
+    --surface: #0f0d0e;
+    --text-primary: #f2ece6;
+    --text-secondary: #b3aca5;
+    --text-muted: #7a736d;
+    --grid: #2a2523;
+    --accent: #e0406e;
+    --era-classic: #c8851c;
+    --era-slasher: #e0406e;
+    --era-modern: #2ba5b3;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--surface); }
+  body { font-family: 'Inter', sans-serif; color: var(--text-primary); }
+  #poster {
+    position: relative;
+    width: 1800px;
+    height: 1560px;
+    overflow: hidden;
+    background:
+      radial-gradient(ellipse 70% 55% at 50% 0%, rgba(224, 64, 110, 0.13), transparent 70%),
+      radial-gradient(ellipse 120% 90% at 50% 50%, transparent 60%, rgba(0, 0, 0, 0.55) 100%),
+      var(--surface);
+  }
+  header { position: absolute; left: 90px; top: 64px; right: 90px; }
+  .kicker {
+    font-size: 17px; font-weight: 700; letter-spacing: 0.32em; text-transform: uppercase;
+    color: var(--accent);
+  }
+  h1 {
+    margin-top: 14px; font-family: 'Playfair Display', serif; font-weight: 900;
+    font-size: 76px; line-height: 1.02; letter-spacing: -0.01em;
+  }
+  h1 em { font-style: italic; font-weight: 700; color: var(--accent); }
+  .dek {
+    margin-top: 18px; max-width: 1180px; font-size: 21px; line-height: 1.5;
+    color: var(--text-secondary);
+  }
+  .dek strong { color: var(--text-primary); font-weight: 600; }
+  .legend { position: absolute; right: 90px; top: 92px; display: grid; gap: 14px; }
+  .legend-title {
+    font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .chip { display: flex; align-items: center; gap: 14px; font-size: 19px; font-weight: 600; }
+  .chip i {
+    width: 18px; height: 18px; border-radius: 50%; flex: none;
+    box-shadow: 0 0 0 3px var(--surface), 0 0 16px currentColor;
+  }
+  .chip span { color: var(--text-muted); font-weight: 500; }
+  footer {
+    position: absolute; left: 90px; right: 90px; bottom: 40px;
+    display: flex; justify-content: space-between; gap: 40px;
+    font-size: 15px; line-height: 1.55; color: var(--text-muted);
+  }
+  footer b { color: var(--text-secondary); font-weight: 600; }
+  footer .sig { text-align: right; white-space: nowrap; }
+  svg { position: absolute; left: 0; top: 0; }
+  .grid line { stroke: var(--grid); stroke-width: 1; }
+  .axis text { fill: var(--text-muted); font-size: 16px; font-family: 'Inter', sans-serif; }
+  .axis-title {
+    fill: var(--text-secondary); font-size: 15px; font-weight: 700; letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .label { font-size: 13.5px; font-weight: 500; fill: var(--text-primary); }
+  /* Surface-coloured halo: leader lines passing behind a label are cut by its text */
+  .label, .note, .note-title {
+    paint-order: stroke; stroke: var(--surface); stroke-width: 5px; stroke-linejoin: round;
+  }
+  .label .yr { fill: var(--text-muted); font-weight: 400; font-size: 12px; }
+  .leader { stroke: #5c5551; stroke-width: 1; fill: none; }
+  .note { font-family: 'Caveat', cursive; font-size: 30px; font-weight: 700; fill: var(--text-primary); }
+  .note-title { font-family: 'Inter', sans-serif; font-size: 17px; font-weight: 800; fill: var(--text-primary); }
+  .note-title .yr { fill: var(--text-muted); font-weight: 500; }
+  .connector { stroke: var(--text-secondary); stroke-width: 1.6; fill: none; }
+  .median-strip text { font-size: 14px; fill: var(--text-secondary); font-weight: 600; }
+  .lists {
+    position: absolute; z-index: 2; display: grid; grid-template-columns: 1fr 1fr; gap: 30px;
+    padding: 16px 24px 14px; border-radius: 14px; border: 1px solid #2f2a28;
+    background: rgba(21, 18, 19, 0.92); box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+  }
+  .list h3 {
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-size: 13px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--text-primary); padding-bottom: 8px; margin-bottom: 6px;
+    border-bottom: 1px solid #2f2a28;
+  }
+  .list h3 span { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; color: var(--text-muted); }
+  .list ol { list-style: none; }
+  .list li {
+    display: grid; grid-template-columns: 26px 14px 1fr auto; align-items: center;
+    column-gap: 6px; font-size: 14.5px; line-height: 19.5px; color: var(--text-primary);
+  }
+  .list .n { color: var(--text-muted); font-variant-numeric: tabular-nums; font-size: 13px; }
+  .list .dot { width: 9px; height: 9px; border-radius: 50%; }
+  .list .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .list .yr { color: var(--text-muted); font-size: 12.5px; }
+  .list .v { font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
+  #tip {
+    position: absolute; pointer-events: none; opacity: 0; transition: opacity 0.12s;
+    background: #1d1a1a; border: 1px solid #3a3432; border-radius: 10px;
+    padding: 12px 14px; font-size: 14px; line-height: 1.5; color: var(--text-secondary);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); min-width: 230px;
+  }
+  #tip b { color: var(--text-primary); font-size: 15px; }
+  #tip .row { display: flex; justify-content: space-between; gap: 16px; }
+  #tip .row span:last-child { color: var(--text-primary); font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<div id="poster">
+  <svg id="grain" width="1800" height="1560" style="opacity:0.07; pointer-events:none; z-index:3">
+    <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2"
+      stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+    <rect width="100%" height="100%" filter="url(#noise)"/>
+  </svg>
+  <header>
+    <div class="kicker">The 100 highest-rated horror movies of all time</div>
+    <h1>Great horror doesn't need<br><em>jump scares</em></h1>
+    <p class="dek" id="dek"></p>
+  </header>
+  <div class="legend" id="legend"><div class="legend-title">Released</div></div>
+  <svg id="chart" width="1800" height="1560"></svg>
+  <footer>
+    <div id="method"></div>
+    <div class="sig">Data retrieved <span id="retrieved"></span><br>Chart: D3.js</div>
+  </footer>
+  <div class="lists" id="lists"></div>
+  <div id="tip"></div>
+</div>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+// Labels are measured with getBBox, so every font must be loaded before drawing
+const FONTS = ['400 12px Inter', '500 13.5px Inter', '600 19px Inter', '700 15px Inter',
+               '800 17px Inter', '900 76px "Playfair Display"',
+               'italic 700 40px "Playfair Display"', '700 30px Caveat'];
+Promise.all(FONTS.map(f => document.fonts.load(f))).then(draw);
+
+function draw() {
+const DATA = JSON.parse(document.getElementById('data').textContent);
+const movies = DATA.movies;
+const W = 1800, H = 1560;
+const M = { top: 400, right: 210, bottom: 200, left: 130 };
+const ERAS = [
+  { key: 'classic', name: 'Before 1980', color: 'var(--era-classic)', hex: '#c8851c',
+    test: y => y < 1980 },
+  { key: 'slasher', name: '1980 – 2009', color: 'var(--era-slasher)', hex: '#e0406e',
+    test: y => y >= 1980 && y < 2010 },
+  { key: 'modern', name: '2010 and later', color: 'var(--era-modern)', hex: '#2ba5b3',
+    test: y => y >= 2010 },
+];
+movies.forEach(m => { m.era = ERAS.find(e => e.test(m.year)); });
+
+// Callouts replace the plain label of their movie(s); dx / dy place the note from the point
+const CALLOUTS = [
+  { ids: ['Psycho|1960'], title: 'Psycho', year: 1960, note: ['#1 rated.', 'Just 2 jump scares.'],
+    dx: -40, dy: -190, anchor: 'end' },
+  // A pair: each title beside its own dot, one shared note above a brace over both
+  { ids: ["Rosemary's Baby|1968", 'The Silence of the Lambs|1991'], pair: true,
+    note: ['Both in the top 5.', 'Zero jump scares.'] },
+  { ids: ['Alien|1979'], title: 'Alien', year: 1979,
+    note: ['The exception: top 3', 'and 11 jump scares'], dx: 56, dy: -26, anchor: 'start' },
+  { ids: ['Evil Dead II|1987'], title: 'Evil Dead II', year: 1987,
+    note: ['The jump-scare king: 27'], dx: 70, dy: 6, anchor: 'start' },
+  { ids: ['The Babadook|2014'], title: 'The Babadook', year: 2014,
+    note: ["23 jumps on one site,", '11 on the other'], dx: 70, dy: 40, anchor: 'start',
+    range: true },
+];
+const key = m => `${m.title}|${m.year}`;
+const byKey = new Map(movies.map(m => [key(m), m]));
+const calledOut = new Set(CALLOUTS.flatMap(c => c.ids));
+
+const median = arr => {
+  const s = [...arr].sort((a, b) => a - b), n = s.length;
+  return n % 2 ? s[(n - 1) / 2] : (s[n / 2 - 1] + s[n / 2]) / 2;
+};
+ERAS.forEach(e => {
+  const ms = movies.filter(m => m.era === e);
+  e.n = ms.length;
+  e.median = median(ms.map(m => m.jump_scares));
+});
+
+// ---------------------------------------------------------------- Header, legend, footer
+const fmt = d3.format('.2f');
+const rho = r => fmt(r).replace('-', '−');
+document.getElementById('dek').innerHTML =
+  `Each dot is one of the 100 best-rated horror films, by the average of IMDb, Letterboxd, ` +
+  `Metacritic and Rotten Tomatoes. Among the top 100, <strong>more jump scares don't mean ` +
+  `better or worse ratings</strong> (ρ = ${rho(DATA.rho)}). Across all ${DATA.n_all} popular ` +
+  `horror films with data, the link is weak but real: <strong>more jump scares, slightly ` +
+  `lower ratings</strong> (ρ = ${rho(DATA.rho_all)}).`;
+const legend = d3.select('#legend');
+ERAS.forEach(e => {
+  const chip = legend.append('div').attr('class', 'chip');
+  chip.append('i').style('background', e.color).style('color', e.hex);
+  chip.append('div').html(`${e.name} <span>· ${e.n} films</span>`);
+});
+document.getElementById('retrieved').textContent = DATA.retrieved;
+document.getElementById('method').innerHTML =
+  `<b>Rating</b>: mean of IMDb, Letterboxd, Metacritic and Rotten Tomatoes critics' average, ` +
+  `each scaled to 0–100 (at least 3 of the 4; at least 25k IMDb votes). ` +
+  `<b>Horror</b>: a "horror" genre tag on IMDb, TMDB or Letterboxd. ` +
+  `<b>Jump scares</b>: whenjumpscare.com, wheresthejump.com when missing.<br>` +
+  `Top 100 among films with jump-scare data: ${DATA.skipped} higher-rated films ` +
+  `(mostly pre-1960, e.g. Bride of Frankenstein, Nosferatu 1922) are on neither site.`;
+
+// ---------------------------------------------------------------- Scales and axes
+const svg = d3.select('#chart');
+const x = d3.scaleLinear().domain([71.5, 92]).range([M.left, W - M.right]);
+// Square-root scale: most films have 0-5 jump scares, a linear axis would crush them together
+const y = d3.scaleSqrt().domain([0, 28.5]).range([H - M.bottom - 16, M.top]);
+const xTicks = d3.range(72.5, 92.1, 2.5), yTicks = [0, 1, 2, 3, 5, 10, 15, 20, 25];
+
+const grid = svg.append('g').attr('class', 'grid');
+grid.selectAll('.gx').data(xTicks).join('line')
+  .attr('x1', d => x(d)).attr('x2', d => x(d)).attr('y1', M.top - 10).attr('y2', H - M.bottom);
+grid.selectAll('.gy').data(yTicks).join('line')
+  .attr('x1', M.left).attr('x2', W - M.right).attr('y1', d => y(d)).attr('y2', d => y(d));
+
+const axis = svg.append('g').attr('class', 'axis');
+axis.selectAll('.tx').data(xTicks).join('text')
+  .attr('x', d => x(d)).attr('y', H - M.bottom + 30).attr('text-anchor', 'middle')
+  .text(d => d % 1 ? d.toFixed(1) : d);
+axis.selectAll('.ty').data(yTicks).join('text')
+  .attr('x', M.left - 18).attr('y', d => y(d) + 5).attr('text-anchor', 'end').text(d => d);
+axis.append('text').attr('class', 'axis-title')
+  .attr('x', (M.left + W - M.right) / 2).attr('y', H - M.bottom + 70).attr('text-anchor', 'middle')
+  .text('Combined rating (0–100)  →');
+axis.append('text').attr('class', 'axis-title')
+  .attr('transform', `translate(${M.left - 68},${(M.top + H - M.bottom) / 2}) rotate(-90)`)
+  .attr('text-anchor', 'middle').text('Number of jump scares (square-root scale)  →');
+
+// Median jump scares per era, as a strip right of the plot
+const strip = svg.append('g').attr('class', 'median-strip')
+  .attr('transform', `translate(${W - M.right + 34},0)`);
+strip.append('text').attr('x', 0).attr('y', M.top - 26).attr('class', 'axis-title')
+  .style('font-size', '12px').text('Median');
+strip.append('line').attr('x1', 8).attr('x2', 8).attr('y1', M.top - 10)
+  .attr('y2', H - M.bottom).attr('stroke', 'var(--grid)').attr('stroke-width', 2);
+ERAS.forEach(e => {
+  const g = strip.append('g').attr('transform', `translate(8,${y(e.median)})`);
+  g.append('circle').attr('r', 9).attr('fill', e.color).attr('stroke', 'var(--surface)')
+    .attr('stroke-width', 3).style('filter', `drop-shadow(0 0 8px ${e.hex})`);
+  g.append('text').attr('x', 20).attr('y', 5).text(`${e.median}`);
+});
+
+// ---------------------------------------------------------------- Babadook disagreement bar
+CALLOUTS.filter(c => c.range).forEach(c => {
+  const m = byKey.get(c.ids[0]);
+  if (!m || m.wtj_total == null) return;
+  const g = svg.append('g');
+  const cx = x(m.rating);
+  g.append('line').attr('x1', cx).attr('x2', cx).attr('y1', y(m.wtj_total))
+    .attr('y2', y(m.jump_scares)).attr('stroke', m.era.hex).attr('stroke-width', 3)
+    .attr('stroke-opacity', 0.45).attr('stroke-linecap', 'round');
+  g.append('circle').attr('cx', cx).attr('cy', y(m.wtj_total)).attr('r', 6)
+    .attr('fill', 'var(--surface)').attr('stroke', m.era.hex).attr('stroke-width', 2);
+});
+
+// ---------------------------------------------------------------- Dots
+const glow = svg.append('defs').append('filter').attr('id', 'glow')
+  .attr('x', '-100%').attr('y', '-100%').attr('width', '300%').attr('height', '300%');
+glow.append('feGaussianBlur').attr('stdDeviation', 5).attr('result', 'b');
+const merge = glow.append('feMerge');
+merge.append('feMergeNode').attr('in', 'b');
+merge.append('feMergeNode').attr('in', 'SourceGraphic');
+
+const R = 7, R_HI = 11;
+const dots = svg.append('g').selectAll('circle').data(movies).join('circle')
+  .attr('cx', d => x(d.rating)).attr('cy', d => y(d.jump_scares))
+  .attr('r', d => calledOut.has(key(d)) ? R_HI : R)
+  .attr('fill', d => d.era.color).attr('stroke', 'var(--surface)').attr('stroke-width', 2)
+  .attr('filter', d => calledOut.has(key(d)) ? 'url(#glow)' : null)
+  .style('cursor', 'pointer');
+
+// ---------------------------------------------------------------- Callouts
+const obstacles = [];  // Boxes the plain labels must avoid
+const callG = svg.append('g');
+function drawPair(c, targets) {
+  const [left, right] = [...targets].sort((a, b) => a.rating - b.rating);
+  const lx = x(left.rating), rx = x(right.rating), y0 = y(0);
+  const g = callG.append('g');
+  [[left, lx - R_HI - 10, 'end'], [right, rx + R_HI + 10, 'start']].forEach(([m, tx, anchor]) => {
+    const t = g.append('text').attr('class', 'note-title').attr('x', tx).attr('y', y0 + 6)
+      .attr('text-anchor', anchor);
+    t.append('tspan').text(m.title);
+    t.append('tspan').attr('class', 'yr').text(` (${m.year})`);
+    g.append('circle').attr('cx', x(m.rating)).attr('cy', y0).attr('r', R_HI + 5)
+      .attr('fill', 'none').attr('stroke', 'var(--text-secondary)').attr('stroke-width', 1.2)
+      .attr('stroke-dasharray', '2 3');
+  });
+  // Curly brace over both dots, its tip pointing up to the shared note
+  const by = y0 - R_HI - 14, x1 = lx - 8, x2 = rx + 8, mid = (x1 + x2) / 2;
+  g.append('path').attr('class', 'connector').attr('d',
+    `M${x1},${by + 8} Q${x1},${by} ${x1 + 8},${by} L${mid - 8},${by} Q${mid},${by} ${mid},${by - 8}` +
+    ` Q${mid},${by} ${mid + 8},${by} L${x2 - 8},${by} Q${x2},${by} ${x2},${by + 8}`);
+  c.note.forEach((line, i) => g.append('text').attr('class', 'note')
+    .attr('x', mid).attr('y', by - 20 - (c.note.length - 1 - i) * 32).attr('text-anchor', 'middle')
+    .style('font-size', i === c.note.length - 1 ? '36px' : null).text(line));
+  const box = g.node().getBBox();
+  obstacles.push({ x: box.x - 8, y: box.y - 8, w: box.width + 16, h: box.height + 16 });
+}
+
+CALLOUTS.forEach(c => {
+  const targets = c.ids.map(id => byKey.get(id)).filter(Boolean);
+  if (!targets.length) return;
+  if (c.pair) { drawPair(c, targets); return; }
+  const px = d3.mean(targets, t => x(t.rating)), py = d3.mean(targets, t => y(t.jump_scares));
+  const tx = px + c.dx, ty = py + c.dy;
+  const g = callG.append('g');
+  const title = g.append('text').attr('class', 'note-title').attr('x', tx).attr('y', ty)
+    .attr('text-anchor', c.anchor);
+  title.append('tspan').text(c.title);
+  if (c.year) title.append('tspan').attr('class', 'yr').text(` (${c.year})`);
+  c.note.forEach((line, i) => g.append('text').attr('class', 'note').attr('x', tx)
+    .attr('y', ty + 32 + i * 30).attr('text-anchor', c.anchor).text(line));
+  const box = g.node().getBBox();
+  obstacles.push({ x: box.x - 8, y: box.y - 8, w: box.width + 16, h: box.height + 16 });
+  // Curved connector from the text block to each target
+  targets.forEach(t => {
+    const ex = x(t.rating), ey = y(t.jump_scares);
+    const sx = c.anchor === 'end' ? box.x + box.width + 10 : box.x - 10;
+    const sy = box.y + box.height / 2;
+    const mx = (sx + ex) / 2, my = Math.min(sy, ey) - 0.15 * Math.abs(ex - sx);
+    const angle = Math.atan2(ey - my, ex - mx);
+    const endX = ex - Math.cos(angle) * (R_HI + 5), endY = ey - Math.sin(angle) * (R_HI + 5);
+    callG.append('path').attr('class', 'connector')
+      .attr('d', `M${sx},${sy} Q${mx},${my} ${endX},${endY}`);
+    callG.append('circle').attr('cx', ex).attr('cy', ey).attr('r', R_HI + 5)
+      .attr('fill', 'none').attr('stroke', 'var(--text-secondary)').attr('stroke-width', 1.2)
+      .attr('stroke-dasharray', '2 3');
+  });
+});
+// ---------------------------------------------------------------- Top-10 lists (top right)
+// Rank with ties (1, 2, 2, 4...); a tie at 10th keeps every tied film
+function topList(sortKey, valueOf) {
+  const sorted = [...movies].sort(sortKey);
+  const out = [];
+  let n = 0;
+  sorted.forEach((m, i) => {
+    if (i === 0 || valueOf(m) !== valueOf(sorted[i - 1])) n = i + 1;
+    if (n <= 10) out.push({ m, n });
+  });
+  return out;
+}
+const listsBox = { x: x(82.1), y: M.top - 28, w: W - M.right - x(82.1), h: 0 };
+const lists = d3.select('#lists').style('left', `${listsBox.x}px`).style('top', `${listsBox.y}px`)
+  .style('width', `${listsBox.w}px`);
+[
+  { title: 'Highest rated', unit: 'rating',
+    rows: topList((a, b) => b.rating - a.rating, m => m.rating),  // Exact values break ties
+    value: m => m.rating.toFixed(1) },
+  { title: 'Most jump scares', unit: 'jumps',
+    rows: topList((a, b) => b.jump_scares - a.jump_scares || b.rating - a.rating,
+                  m => m.jump_scares),
+    value: m => m.jump_scares },
+].forEach(spec => {
+  const col = lists.append('div').attr('class', 'list');
+  col.append('h3').html(`${spec.title}<span>${spec.unit}</span>`);
+  const li = col.append('ol').selectAll('li').data(spec.rows).join('li');
+  li.append('span').attr('class', 'n').text(d => d.n);
+  li.append('span').attr('class', 'dot').style('background', d => d.m.era.color);
+  li.append('span').attr('class', 't')
+    .html(d => `${d.m.title} <span class="yr">’${String(d.m.year).slice(2)}</span>`);
+  li.append('span').attr('class', 'v').text(d => spec.value(d.m));
+});
+listsBox.h = lists.node().getBoundingClientRect().height;
+obstacles.push({ x: listsBox.x - 10, y: listsBox.y - 10, w: listsBox.w + 20, h: listsBox.h + 20 });
+
+// Legend and header are obstacles too (in chart coordinates)
+obstacles.push({ x: 0, y: 0, w: W, h: M.top - 40 });
+obstacles.push({ x: W - M.right + 10, y: 0, w: M.right, h: H });
+
+// ---------------------------------------------------------------- Plain labels
+const labelG = svg.append('g');
+const leaderG = labelG.append('g');
+const plain = movies.filter(m => !calledOut.has(key(m)));
+const labels = plain.map(m => {
+  const t = labelG.append('text').attr('class', 'label');
+  t.append('tspan').text(m.title);
+  t.append('tspan').attr('class', 'yr').text(` ’${String(m.year).slice(2)}`);
+  const b = t.node().getBBox();
+  const ax = x(m.rating), ay = y(m.jump_scares);
+  return { node: t, w: b.width, h: b.height, ax, ay, x: ax + R + 4, y: ay - b.height / 2,
+           base: b.y };
+});
+const anchors = movies.map(m => ({ x: x(m.rating), y: y(m.jump_scares),
+                                   r: calledOut.has(key(m)) ? R_HI + 6 : R + 2 }));
+
+// Simulated annealing label placement (after Evan Wang's d3-labeler)
+const bounds = { x0: M.left + 4, y0: M.top - 30, x1: W - M.right - 4, y1: H - M.bottom - 4 };
+const overlap = (a, b) => {
+  const ox = Math.max(0, Math.min(a.x + a.w, b.x + b.w) - Math.max(a.x, b.x));
+  const oy = Math.max(0, Math.min(a.y + a.h, b.y + b.h) - Math.max(a.y, b.y));
+  return ox * oy;
+};
+const segIntersect = (p1, p2, p3, p4) => {
+  const d = (p4.y - p3.y) * (p2.x - p1.x) - (p4.x - p3.x) * (p2.y - p1.y);
+  if (d === 0) return false;
+  const ua = ((p4.x - p3.x) * (p1.y - p3.y) - (p4.y - p3.y) * (p1.x - p3.x)) / d;
+  const ub = ((p2.x - p1.x) * (p1.y - p3.y) - (p2.y - p1.y) * (p1.x - p3.x)) / d;
+  return ua > 0 && ua < 1 && ub > 0 && ub < 1;
+};
+const center = l => ({ x: l.x + l.w / 2, y: l.y + l.h / 2 });
+const PAD_X = 5, PAD_Y = 2;  // Keep a visible gap between neighbouring labels
+const padded = l => ({ x: l.x - PAD_X, y: l.y - PAD_Y, w: l.w + 2 * PAD_X, h: l.h + 2 * PAD_Y });
+// Liang-Barsky: does segment p-q cross rectangle r?
+function segRect(p, q, r) {
+  let t0 = 0, t1 = 1;
+  const dx = q.x - p.x, dy = q.y - p.y;
+  const checks = [[-dx, p.x - r.x], [dx, r.x + r.w - p.x], [-dy, p.y - r.y], [dy, r.y + r.h - p.y]];
+  for (const [pp, qq] of checks) {
+    if (pp === 0) { if (qq < 0) return false; continue; }
+    const t = qq / pp;
+    if (pp < 0) { if (t > t1) return false; if (t > t0) t0 = t; }
+    else { if (t < t0) return false; if (t < t1) t1 = t; }
+  }
+  return true;
+}
+// Closest point of a label box to its own dot: where the leader line ends
+const attach = l => ({ x: Math.max(l.x, Math.min(l.ax, l.x + l.w)),
+                       y: Math.max(l.y, Math.min(l.ay, l.y + l.h)) });
+function energy(i) {
+  const l = labels[i];
+  const c = center(l);
+  let e = 0;
+  const a = attach(l), anchor = { x: l.ax, y: l.ay };
+  const gap = Math.hypot(a.x - l.ax, a.y - l.ay);
+  e += 0.4 * Math.hypot(c.x - l.ax, c.y - l.ay) + 2.5 * Math.max(0, gap - R - 6);
+  if (c.x < l.ax) e += 2;  // Mild preference for labels right of their dot
+  const pl = padded(l);
+  for (let j = 0; j < labels.length; j++) {
+    if (j === i) continue;
+    const o = labels[j];
+    e += 80 * overlap(pl, padded(o));
+    const oa = attach(o);
+    if (segIntersect(anchor, a, { x: o.ax, y: o.ay }, oa)) e += 30;
+    // Leaders must not run through other labels, in either direction
+    if (gap > R + 6 && segRect(anchor, a, o)) e += 150;
+    if (Math.hypot(oa.x - o.ax, oa.y - o.ay) > R + 6 && segRect({ x: o.ax, y: o.ay }, oa, l)) e += 150;
+  }
+  for (const d of anchors) {  // Labels must never cover a dot
+    e += 150 * overlap(pl, { x: d.x - d.r, y: d.y - d.r, w: 2 * d.r, h: 2 * d.r });
+  }
+  for (const ob of obstacles) e += 150 * overlap(pl, ob);
+  const out = Math.max(0, bounds.x0 - l.x) + Math.max(0, l.x + l.w - bounds.x1)
+            + Math.max(0, bounds.y0 - l.y) + Math.max(0, l.y + l.h - bounds.y1);
+  e += 400 * out;
+  return e;
+}
+function anneal(sweeps, T0 = 20) {
+  let T = T0;
+  for (let s = 0; s < sweeps; s++) {
+    for (let k = 0; k < labels.length; k++) {
+      const i = Math.floor(Math.random() * labels.length);
+      const l = labels[i];
+      const ox = l.x, oy = l.y, before = energy(i);
+      if (Math.random() < 0.6) {
+        l.x += (Math.random() - 0.5) * 12;
+        l.y += (Math.random() - 0.5) * 8;
+      } else {
+        const c = center(l), a = (Math.random() - 0.5) * Math.PI / 3;
+        const dx = c.x - l.ax, dy = c.y - l.ay;
+        l.x = l.ax + dx * Math.cos(a) - dy * Math.sin(a) - l.w / 2;
+        l.y = l.ay + dx * Math.sin(a) + dy * Math.cos(a) - l.h / 2;
+      }
+      const delta = energy(i) - before;
+      if (delta > 0 && Math.random() >= Math.exp(-delta / T)) { l.x = ox; l.y = oy; }
+    }
+    T -= T0 / sweeps;
+  }
+}
+// Deterministic randomness, so re-renders are stable; keep the best of a few restarts
+let seed;
+Math.random = () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; };
+const start = labels.map(l => [l.x, l.y]);
+let best = null;
+for (const s of [7, 11]) {
+  seed = s;
+  labels.forEach((l, i) => { [l.x, l.y] = start[i]; });
+  anneal(3000);
+  const total = d3.sum(labels, (_, i) => energy(i));
+  console.log(`seed ${s}: energy ${total.toFixed(0)}`);
+  if (!best || total < best.total) best = { total, pos: labels.map(l => [l.x, l.y]) };
+}
+labels.forEach((l, i) => { [l.x, l.y] = best.pos[i]; });
+
+labels.forEach(l => {
+  l.node.attr('x', l.x).attr('y', l.y - l.base);
+  // Leader from the dot edge to the closest point of the label box, only when detached
+  const cx = Math.max(l.x, Math.min(l.ax, l.x + l.w));
+  const cy = Math.max(l.y, Math.min(l.ay, l.y + l.h));
+  const d = Math.hypot(cx - l.ax, cy - l.ay);
+  if (d > R + 9) {
+    const ux = (cx - l.ax) / d, uy = (cy - l.ay) / d;
+    leaderG.append('line').attr('class', 'leader')
+      .attr('x1', l.ax + ux * (R + 2)).attr('y1', l.ay + uy * (R + 2))
+      .attr('x2', cx - ux * 2).attr('y2', cy - uy * 2);
+  }
+});
+dots.raise();
+callG.raise();
+
+// ---------------------------------------------------------------- Tooltip
+const tip = d3.select('#tip');
+const row = (k, v) => `<div class="row"><span>${k}</span><span>${v ?? '–'}</span></div>`;
+dots.on('mousemove', (ev, d) => {
+  const split = d.wjs_major != null && d.jump_scares > 0
+    ? ` (${d.wjs_major} major)` : '';
+  tip.html(`<b>${d.title}</b> (${d.year}) · #${d.position}` +
+           row('Combined rating', d.rating.toFixed(1)) +
+           row('IMDb', d.imdb_rating) + row('Letterboxd', d.lb_rating) +
+           row('Metacritic', d.mc_score) + row('Rotten Tomatoes avg', d.rt_avg) +
+           row('Jump scares', `${d.jump_scares}${split}`))
+     .style('left', `${ev.offsetX + 18}px`).style('top', `${ev.offsetY + 18}px`)
+     .style('opacity', 1);
+}).on('mouseleave', () => tip.style('opacity', 0));
+
+window.chartReady = true;
+}
+</script>
+</body>
+</html>
