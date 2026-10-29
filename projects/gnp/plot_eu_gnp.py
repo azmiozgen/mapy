@@ -1,16 +1,19 @@
+import os
+
 import numpy as np
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
-from config import Continent
+from mapy.config import Continent
+from mapy.paths import DATA_DIR, OUTPUT_DIR
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon
 from mpl_toolkits.basemap import Basemap
 
-COUNTRY_COORDS_FILE = "./data/eu_country_lon_lat_extended.csv"
-COUNTRY_GNP_FILE = "./data/worldbank_gnp.csv"
-SHAPE_FILE = "./data/natural_earth/ne_10m_admin_0_countries"  ## w/o extension
+COUNTRY_COORDS_FILE = os.path.join(DATA_DIR, "eu_country_lon_lat_extended.csv")
+COUNTRY_GNP_FILE = os.path.join(DATA_DIR, "worldbank_gnp.csv")
+SHAPE_FILE = os.path.join(DATA_DIR, "natural_earth/ne_10m_admin_0_countries")  ## w/o extension
 
 YEAR = '1995'
 TITLE = "Europe GNP (Gross National Product) in {} (US Dollars)".format(YEAR)
@@ -21,7 +24,7 @@ GNP_VALUE_TEXT_FONTSIZE = 10
 RESOLUTION = 'c'  ## c, l, i, h, f
 FIGURE_SIZE = (25, 20)
 
-OUTPUT_FILE = "./data/output/eu_gnp{}_map.png".format(YEAR)
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "eu_gnp{}_map.png".format(YEAR))
 
 if __name__ == '__main__':
 

@@ -1,7 +1,15 @@
+adjustText
 basemap
 folium
 geopy
+matplotlib
+numpy
 OSMPythonTools
 pandas
+playwright
 polars
+requests
+scipy
+seaborn
+SPARQLWrapper
 tqdm

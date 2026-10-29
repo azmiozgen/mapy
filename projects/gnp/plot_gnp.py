@@ -5,30 +5,28 @@ import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
-from config import Continent
+from mapy.config import Continent
+from mapy.paths import DATA_DIR, OUTPUT_DIR
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon
 from mpl_toolkits.basemap import Basemap
 
-COUNTRY_COORDS_FILE = "./data/world_country_lon_lat.csv"
-# COUNTRY_COORDS_FILE = "./data/eu_country_lon_lat_extended.csv"
-COUNTRY_MOVIE_FILE = "./data/unesco_movie_producing.csv"
-SHAPE_FILE = "./data/natural_earth/ne_10m_admin_0_countries"  ## w/o extension
+# COUNTRY_COORDS_FILE = os.path.join(DATA_DIR, "eu_country_lon_lat_extended.csv")
+COUNTRY_COORDS_FILE = os.path.join(DATA_DIR, "world_country_lon_lat.csv")
+COUNTRY_GNP_FILE = os.path.join(DATA_DIR, "worldbank_gnp.csv")
+SHAPE_FILE = os.path.join(DATA_DIR, "natural_earth/ne_10m_admin_0_countries")  ## w/o extension
 
+YEAR = '2000'
 REGION = 'world'
-# INDICATOR = 'Total number of national feature films produced'
-INDICATOR = 'Indoor cinemas per capita (per 1,000,000 inhabitants)'
-YEAR = 2016
-TITLE = "{} in {}".format(INDICATOR, YEAR)
+TITLE = "{} GNP (Gross National Product) in {} (US Dollars)".format(REGION.title(), YEAR)
 TEXT_OFFSET = 0
 LOWER_LATITUDE_OFFSET = 1
-N_COLORS = 6
-MOVIE_COUNT_TEXT_FONTSIZE = 10
-RESOLUTION = 'c'  ## c, l, i, h, f
+N_COLORS = 9
+GNP_VALUE_TEXT_FONTSIZE = 5
+RESOLUTION = 'l'  ## c, l, i, h, f
 FIGURE_SIZE = (50, 10)
-COLOR = 'Reds'
 
-OUTPUT_FILE = "./output/{}_{}_year{}_map.png".format(REGION, INDICATOR.lower().replace(' ', '_'), YEAR)
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "{}_gnp{}_map.png".format(REGION, YEAR))
 
 if __name__ == '__main__':
 
@@ -54,25 +52,23 @@ if __name__ == '__main__':
     df_region = pd.read_csv(COUNTRY_COORDS_FILE)
 
     ## Read gnp values
-    df_movie = pd.read_csv(COUNTRY_MOVIE_FILE)
+    df_gnp = pd.read_csv(COUNTRY_GNP_FILE)
 
     ## Merge with region df
-    merged = pd.merge(df_movie, df_region, left_on='Country', right_on='name')[['Indicator', 'Country', 'Time', 'Value', 'lon', 'lat']]
+    merged = pd.merge(df_gnp, df_region, left_on='Country Name', right_on='name')[['name', YEAR, 'lon', 'lat']]
     df = merged.dropna()
-    df = df[df['Indicator'] == INDICATOR]
-    df = df[df['Time'] == YEAR]
 
     ## Set digitized color intervals
-    movie_counts = df['Value']
-    cm = plt.get_cmap(COLOR)
+    gnp_values = df[YEAR]
+    cm = plt.get_cmap('Oranges')
     scheme = np.array([cm(i / N_COLORS) for i in range(N_COLORS)])
-    bins = np.linspace(movie_counts.min(), movie_counts.max(), N_COLORS)
-    df['bin'] = np.digitize(movie_counts, bins) - 1
+    bins = np.linspace(gnp_values.min(), gnp_values.max(), N_COLORS)
+    df['bin'] = np.digitize(gnp_values, bins) - 1
 
     ## Figure
     fig = plt.figure(figsize=FIGURE_SIZE)
     ax = fig.add_subplot(111, frame_on=False)
-    fig.suptitle(TITLE, fontsize=17, y=.91)
+    fig.suptitle(TITLE, fontsize=10, y=.90)
 
     # Control the position of the square. Give the coordinate of 2 corners
     if REGION == 'world':
@@ -107,28 +103,28 @@ if __name__ == '__main__':
     #              lakes=False,
     #              resolution='f',
     #              grid=1.25)
-
+    
     ## Write GNP value text 
     if REGION != 'world':
         for country in np.array(df):
-            indicator, country, time, n_movie, lon, lat, _ = country
+            name, gnp, lon, lat, _ = country
             x, y = m(lon, lat)   ## Map projection
             x_off, y_off = x + TEXT_OFFSET, y + TEXT_OFFSET
             lon, lat = m(x, y, inverse=True)  ## Back to longitude-latitude
-            n_movie_str = str(n_movie)
-            plt.text(x_off, y_off, '{}'.format(n_movie_str), fontsize=MOVIE_COUNT_TEXT_FONTSIZE)
+            gnp_str = str(gnp / 1000.) + 'k'
+            plt.text(x_off, y_off, '{}'.format(gnp_str), fontsize=GNP_VALUE_TEXT_FONTSIZE)
 
     ## Color the countries
     m.readshapefile(SHAPE_FILE, 'units', color='#444444', linewidth=.2)
-    country_names_in_df = np.array(df['Country'])
+    country_names_in_df = np.array(df['name'])
     for info, shape in zip(m.units_info, m.units):
         ne_name = info['NAME_EN'].strip()
         # if "orea" in ne_name:  ## 
         #     print(ne_name)
         if ne_name not in country_names_in_df: 
             continue
-
-        color = scheme[df[df['Country'] == ne_name]['bin']]
+        
+        color = scheme[df[df['name'] == ne_name]['bin']]
         patches = [Polygon(np.array(shape), True)]
         pc = PatchCollection(patches)
         pc.set_facecolor(color)
@@ -138,11 +134,12 @@ if __name__ == '__main__':
     ax_legend = fig.add_axes([0.37, 0.08, 0.3, 0.02], zorder=3)
     cmap = mpl.colors.ListedColormap(scheme)
     cb = mpl.colorbar.ColorbarBase(ax_legend,
-                                cmap=cmap,
-                                ticks=bins,
-                                boundaries=bins,
-                                orientation='horizontal')
-    cb.ax.set_xticklabels([str(round(i, 1)) for i in bins])
+                                   cmap=cmap,
+                                   ticks=bins,
+                                   boundaries=bins,
+                                   orientation='horizontal')
+    bins_k = bins / 1000.
+    cb.ax.set_xticklabels([str(round(i, 1)) + 'k' for i in bins_k])
 
     ## Save figure
     plt.savefig(OUTPUT_FILE, bbox_inches='tight')

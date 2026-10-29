@@ -5,10 +5,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from config import Continent
+from mapy.config import Continent
+from mapy.paths import DATA_DIR
 
 TEXT_OFFSET = 10000
-COUNTRY_COORDS_FILE = "./data/eu_country_lon_lat.csv"
+COUNTRY_COORDS_FILE = os.path.join(DATA_DIR, "eu_country_lon_lat.csv")
 
 if __name__ == '__main__':
 
