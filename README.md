@@ -57,3 +57,8 @@ python projects/horror_jump_scares/plot_horror_jump_scares_web.py
 ```
 
 Notebooks are committed without outputs.
+
+## License
+
+The code is released under the [MIT License](LICENSE). The data shown in the figures belongs to
+its sources, listed in [docs/data_sources.md](docs/data_sources.md), and follows their terms.
